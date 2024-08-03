@@ -7,3 +7,5 @@ https://freeott.site/discovery/Animal_Planet.m3u8
 https://varun-iptv.netlify.app/m3u/discoverybengali.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/ESeGnT2.jpg" group-title="Documentry",Discovery [HINDI]
 https://freeott.site/discovery/Discovery_Channel.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/4Wfs9kj.png" group-title="Documentry",Discovery Science 
+https://freeott.site/discovery/Discovery_Science.m3u8
