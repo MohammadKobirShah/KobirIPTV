@@ -9,7 +9,7 @@ https://varun-iptv.netlify.app/m3u/discoverybengali.m3u8
 http://30.30.30.30:8088/801/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/4Wfs9kj.png" group-title="Documentry",Discovery Science 
 https://freeott.site/discovery/Discovery_Science.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/baXbWro.jpg" group-title="Documentry",National Geographic
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://bdiptv.stream/uploads/tv_image/sm/nat-geo-wild.png" group-title="Documentry",National Geographic
 http://30.30.30.30:8088/802/index.m3u8
 
 #EXTM3U
