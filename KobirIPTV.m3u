@@ -1,4 +1,72 @@
 #EXTM3U
+#EXTM3U
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/2014_Disney_Channel_logo.svg/1200px-2014_Disney_Channel_logo.svg.png" group-title="Kids Streamz by Nayeem", Disney India
+https://thenayeemparvez.xyz/txtv/playlist.m3u8?id=fe8fc6b169d2ac75b
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/2014_Disney_Channel_logo.svg/1200px-2014_Disney_Channel_logo.svg.png" group-title="Kids Streamz by Nayeem", Disney India HD
+https://thenayeemparvez.xyz/txtv/playlist.m3u8?id=d1a7728c188fa2733
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Hungama_TV.svg/1200px-Hungama_TV.svg.png" group-title="Kids Streamz by Nayeem", Hungama Kids
+https://thenayeemparvez.xyz/txtv/playlist.m3u8?id=95e86d2767956308d
+
+#EXTINF:-1 tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-35365-jr3xz4uo-v5/imageContent-35365-jr3xz4uo-m6.png" group-title="Kids Streamz by Nayeem", Super Hungama
+http://superhungama.thenayeemparvez.xyz:28015/play/a02n/index.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-8018-j7a7n1a8-v1/imageContent-8018-j7a7n1a8-m1.png" group-title="Kids Streamz by Nayeem", Sonic Hindi
+https://moonkerala.xyz/jcinema/stream.m3u8?id=3774149|Referer=https://moonkerala.xyz/?key=thenayeemparvez
+
+#EXTINF:-1 tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-8018-j7a7n1a8-v1/imageContent-8018-j7a7n1a8-m1.png" group-title="Kids Streamz by Nayeem", Sonic Bangla
+https://colorsscreen.com/live.php?id=1345&extension=.m3u8|Referer=https://colorsscreen.com/?key=thenayeemparvez
+
+#EXTINF:-1 tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-8018-j7a7n1a8-v1/imageContent-8018-j7a7n1a8-m1.png" group-title="Kids Streamz by Nayeem", Sonic Tamil
+https://colorsscreen.com/live.php?id=290&extension=.m3u8|Referer=https://colorsscreen.com/?key=thenayeemparvez
+
+#EXTINF:-1 tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-465-j5jw9va0-v1/imageContent-465-j5jw9va0-m1.png" group-title="Kids Streamz by Nayeem", Nick Hindi
+https://colorsscreen.com/live.php?id=545&extension=.m3u8|Referer=https://colorsscreen.com/?key=thenayeemparvez
+
+#EXTINF:-1 tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-465-j5jw9va0-v1/imageContent-465-j5jw9va0-m1.png" group-title="Kids Streamz by Nayeem", Nick Bangla
+https://colorsscreen.com/live.php?id=1341&extension=.m3u8|Referer=https://colorsscreen.com/?key=thenayeemparvez
+
+#EXTINF:-1 tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-465-j5jw9va0-v1/imageContent-465-j5jw9va0-m1.png" group-title="Kids Streamz by Nayeem", Nick Tamil
+https://colorsscreen.com/live.php?id=546&extension=.m3u8|Referer=https://colorsscreen.com/?key=thenayeemparvez
+
+#EXTINF:-1 tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-465-j5jw9va0-v1/imageContent-465-j5jw9va0-m1.png" group-title="Kids Streamz by Nayeem", Nick Telugu 
+https://colorsscreen.com/live.php?id=543&extension=.m3u8|Referer=https://colorsscreen.com/?key=thenayeemparvez
+
+#EXTINF:-1 tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-132-j5fpedbs-v4/imageContent-132-j5fpedbs-m6.png" group-title="Kids Streamz by Nayeem", Sony Yay Hindi
+https://keralamaxtv.com/sliv/stream.php?id=168569|Referer=https://keralamaxtv.com/sliv/?key=thenayeemparvez
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq_OoMGcAbEnLiH_eV-UBYVF7EOL5uHcfQmQ&usqp=CAU" group-title="Kids Streamz by Nayeem", Cartoon Network Hindi
+https://colorsscreen.com/live.php?id=816&extension=.m3u8|Referer=https://colorsscreen.com/?key=thenayeemparvez
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/d7/Duronto_TV_Logo.png" group-title="Kids Streamz by Nayeem", Duronto TV
+https://thenayeemparvez.xyz/txtv/playlist.m3u8?id=39a9bf6c8ace286a6
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/39/Maasranga_Television_Logo.jpg/180px-Maasranga_Television_Logo.jpg" group-title="Kids Streamz by Nayeem", Massranga TV
+https://mtv.sunplex.live/MAASRANGA-TV/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_soLdr6it_9B9IqBCb3Waa6eEpYOeiP2hng&s" group-title="Kids Streamz by Nayeem", Kids TV India
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/kids-tv-india-nursery-rhymes-and-baby-songs/master.m3u8?token=thenayeemparvez
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_zknae6Nq0rVK2NY-FnEo8PusqSDTbx0p-g&s" group-title="Kids Streamz by Nayeem", Gubbare Kids
+https://epiconvh.s.llnwi.net/gubbare/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-24724-jgvwokqw-v1/imageContent-24724-jgvwokqw-m1.png" group-title="Kids Streamz by Nayeem", Discover Kids Hindi
+https://nowmetv.xyz/delta/discovery/api/Discovery_Kids_Hindi.m3u8
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbzUPDEfJZ1XosjkWUfMC4MY-4h0B4LDKTNA&s" group-title="Kids Streamz by Nayeem", Pogo Hindi
+https://colorsscreen.com/live.php?id=559&extension=.m3u8|Referer=https://colorsscreen.com/?key=thenayeemparvez
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjclXhUxHMzwIt0f8HVCikDsb7pHLoOY9_U_viIk7ztKRPekUyJpjtlSCv&s=10" group-title="Kids Streamz by Nayeem", PBS Kids
+https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8?token=thenayeemparvez
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrMZlR-p_9pXr2OOMq_Lepz5S0JSrzmdqZqLEgLka2V4ENku-ziREm3ck&s=10" group-title="Kids Streamz by Nayeem", Motu Patlu 24/7
+https://thenayeemparvez.xyz/txtv/playlist.m3u8?id=341e7a1230441fead
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA2HOxs9b62jFrbZUvO7aWPjj9oYGhafb_kw&s" group-title="Kids Streamz by Nayeem", Baalveer 24/7
+https://thenayeemparvez.xyz/txtv/playlist.m3u8?id=cd926b73810d9c7a7
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a9/Discovery_Kids_Logo_2021-Presente.webp" group-title="Kids",Discovery Kids
 https://freeott.site/discovery/Discovery_Kids.m3u8
 #EXTINF:-1 tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1719833976219.png" group-title="Documentry",Animal Planet
