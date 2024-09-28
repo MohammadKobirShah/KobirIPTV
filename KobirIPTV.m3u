@@ -12,9 +12,9 @@ https://freeott.site/discovery/Discovery_Science.m3u8
 
 #EXTM3U
 #EXTINF:-1 tvg-id="Nayeem's JadooTV" tvg-name="Nayeem's JadooTV" tvg-logo="https://edge01.iptv.digijadoo.net/static/atn_bangla.png", ATN Bangla
-https://nayeemparvez.online/aila-jadoo/stream.m3u8?id=atn_bangla|Referer=https://xnxx.tv/
+http://30.30.30.30:8088/202/index.m3u8
 #EXTINF:-1 tvg-id="Nayeem's JadooTV" tvg-name="Nayeem's JadooTV" tvg-logo="https://edge01.iptv.digijadoo.net/static/atn_news.png", ATN News
-https://nayeemparvez.online/aila-jadoo/stream.m3u8?id=atn_news|Referer=https://xnxx.tv/
+http://30.30.30.30:8088/203/index.m3u8
 #EXTINF:-1 tvg-id="Nayeem's JadooTV" tvg-name="Nayeem's JadooTV" tvg-logo="https://edge01.iptv.digijadoo.net/static/al_jazeera.png" group-title="Nayeem's JadooTV", Al Jazeera English HD
 https://nayeemparvez.online/aila-jadoo/stream.m3u8?id=al_jazeera|Referer=https://xnxx.tv/
 #EXTINF:-1 tvg-id="Nayeem's JadooTV" tvg-name="Nayeem's JadooTV" tvg-logo="https://edge01.iptv.digijadoo.net/static/ananda_tv.png", Ananda TV
@@ -58,7 +58,7 @@ https://nayeemparvez.online/aila-jadoo/stream.m3u8?id=ekushey_tv|Referer=https:/
 #EXTINF:-1 tvg-id="Nayeem's JadooTV" tvg-name="Nayeem's JadooTV" tvg-logo="https://edge01.iptv.digijadoo.net/static/gaan_bangla.png" group-title="Nayeem's JadooTV", Gaan Bangla 
 https://nayeemparvez.online/aila-jadoo/stream.m3u8?id=gaan_bangla|Referer=https://xnxx.tv/
 #EXTINF:-1 tvg-id="Nayeem's JadooTV" tvg-name="Nayeem's JadooTV" tvg-logo="https://edge01.iptv.digijadoo.net/static/gazi_tv.png" group-title="Nayeem's JadooTV", Gazi TV 
-https://nayeemparvez.online/aila-jadoo/stream.m3u8?id=gazi_tv_hd|Referer=https://xnxx.tv/
+http://30.30.30.30:8088/106/index.m3u8
 #EXTINF:-1 tvg-id="Nayeem's JadooTV" tvg-name="Nayeem's JadooTV" tvg-logo="https://edge01.iptv.digijadoo.net/static/independent_tv.png" group-title="Nayeem's JadooTV", Independent TV
 https://nayeemparvez.online/aila-jadoo/stream.m3u8?id=independent_tv|Referer=https://xnxx.tv/
 #EXTINF:-1 tvg-id="Nayeem's JadooTV" tvg-name="Nayeem's JadooTV" tvg-logo="https://edge01.iptv.digijadoo.net/static/jamuna_tv.png" group-title="Nayeem's JadooTV", Jamuna TV
