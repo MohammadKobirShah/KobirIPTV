@@ -1,6 +1,4 @@
 #EXTM3U
-#EXTM3U
-
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/2014_Disney_Channel_logo.svg/1200px-2014_Disney_Channel_logo.svg.png" group-title="Kids Streamz by Nayeem", Disney India
 https://thenayeemparvez.xyz/txtv/playlist.m3u8?id=fe8fc6b169d2ac75b
 
@@ -53,8 +51,6 @@ https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_zknae6Nq0rVK2NY-FnEo8PusqSDTbx0p-g&s" group-title="Kids Streamz by Nayeem", Gubbare Kids
 https://epiconvh.s.llnwi.net/gubbare/master.m3u8
 
-#EXTINF:-1 tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-24724-jgvwokqw-v1/imageContent-24724-jgvwokqw-m1.png" group-title="Kids Streamz by Nayeem", Discover Kids Hindi
-https://nowmetv.xyz/delta/discovery/api/Discovery_Kids_Hindi.m3u8
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbzUPDEfJZ1XosjkWUfMC4MY-4h0B4LDKTNA&s" group-title="Kids Streamz by Nayeem", Pogo Hindi
 https://colorsscreen.com/live.php?id=559&extension=.m3u8|Referer=https://colorsscreen.com/?key=thenayeemparvez
@@ -126,15 +122,13 @@ https://nayeemparvez.online/aila-jadoo/stream.m3u8?id=ekattor_tv|Referer=https:/
 #EXTINF:-1 tvg-id="Nayeem's JadooTV" tvg-name="Nayeem's JadooTV" tvg-logo="https://edge01.iptv.digijadoo.net/static/ekushey_tv.png" group-title="Nayeem's JadooTV", Ekushey TV
 https://nayeemparvez.online/aila-jadoo/stream.m3u8?id=ekushey_tv|Referer=https://xnxx.tv/
 #EXTINF:-1 tvg-id="Nayeem's JadooTV" tvg-name="Nayeem's JadooTV" tvg-logo="https://edge01.iptv.digijadoo.net/static/gaan_bangla.png" group-title="Nayeem's JadooTV", Gaan Bangla 
-https://nayeemparvez.online/aila-jadoo/stream.m3u8?id=gaan_bangla|Referer=https://xnxx.tv/
+http://30.30.30.30:8088/701/index.m3u8
 #EXTINF:-1 tvg-id="Nayeem's JadooTV" tvg-name="Nayeem's JadooTV" tvg-logo="https://edge01.iptv.digijadoo.net/static/gazi_tv.png" group-title="Nayeem's JadooTV", Gazi TV 
 http://30.30.30.30:8088/106/index.m3u8
 #EXTINF:-1 tvg-id="Nayeem's JadooTV" tvg-name="Nayeem's JadooTV" tvg-logo="https://edge01.iptv.digijadoo.net/static/independent_tv.png" group-title="Nayeem's JadooTV", Independent TV
 https://nayeemparvez.online/aila-jadoo/stream.m3u8?id=independent_tv|Referer=https://xnxx.tv/
 #EXTINF:-1 tvg-id="Nayeem's JadooTV" tvg-name="Nayeem's JadooTV" tvg-logo="https://edge01.iptv.digijadoo.net/static/jamuna_tv.png" group-title="Nayeem's JadooTV", Jamuna TV
 https://nayeemparvez.online/aila-jadoo/stream.m3u8?id=jamuna_tv|Referer=https://xnxx.tv/
-#EXTINF:-1 tvg-id="Nayeem's JadooTV" tvg-name="Nayeem's JadooTV" tvg-logo="https://edge01.iptv.digijadoo.net/static/maasranga.png" group-title="Nayeem's JadooTV", Massranga
-https://nayeemparvez.online/aila-jadoo/stream.m3u8?id=massranga|Referer=https://xnxx.tv/
 #EXTINF:-1 tvg-id="Nayeem's JadooTV" tvg-name="Nayeem's JadooTV" tvg-logo="https://edge01.iptv.digijadoo.net/static/ntv.png" group-title="Nayeem's JadooTV", NTV
 https://nayeemparvez.online/aila-jadoo/stream.m3u8?id=ntv|Referer=https://xnxx.tv/
 #EXTINF:-1 tvg-id="Nayeem's JadooTV" tvg-name="Nayeem's JadooTV" tvg-logo="https://edge01.iptv.digijadoo.net/static/nagorik_tv.png" group-title="Nayeem's JadooTV", Nagorik TV
@@ -197,8 +191,6 @@ https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeemarathi1/default/zeemarathi1.m3u
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeetalkieshd1/default/zeetelkieshd1.m3u8
 #EXTINF:-1 tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-8849-j7pqmypc-v2/imageContent-8849-j7pqmypc-m3.png" group-title="Nayeem's Zee5",Zee Cinemalu
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeecinemalu1/default/zeecinemalu1.m3u8
-
-#EXTM3U
 
 #EXTINF:-1 tvg-id="sony-hd" tvg-name="Sony HD (SET HD)" tvg-country="IN" tvg-logo="https://i.postimg.cc/xCV0N1yy/SONY-SET-HD.png" tvg-chno="sony-hd" group-title="Nayeem's SonyLIV",Sony HD (SET HD)
 https://keralamaxtv.com/sliv/stream.php?id=1100&e=.m3u8|Referer=https://keralamaxtv.com/sliv/&key=thenayeemparvez
