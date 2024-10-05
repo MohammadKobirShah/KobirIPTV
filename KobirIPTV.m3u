@@ -41,20 +41,12 @@ https://epiconvh.s.llnwi.net/gubbare/master.m3u8
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbzUPDEfJZ1XosjkWUfMC4MY-4h0B4LDKTNA&s" group-title="Kids Streamz by Nayeem", Pogo Hindi
 http://217.20.112.199/pogo/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjclXhUxHMzwIt0f8HVCikDsb7pHLoOY9_U_viIk7ztKRPekUyJpjtlSCv&s=10" group-title="Kids Streamz by Nayeem", PBS Kids
-https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8?token=thenayeemparvez
-
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrMZlR-p_9pXr2OOMq_Lepz5S0JSrzmdqZqLEgLka2V4ENku-ziREm3ck&s=10" group-title="Kids Streamz by Nayeem", Motu Patlu 24/7
-https://thenayeemparvez.xyz/txtv/playlist.m3u8?id=341e7a1230441fead
-
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA2HOxs9b62jFrbZUvO7aWPjj9oYGhafb_kw&s" group-title="Kids Streamz by Nayeem", Baalveer 24/7
-https://thenayeemparvez.xyz/txtv/playlist.m3u8?id=cd926b73810d9c7a7
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a9/Discovery_Kids_Logo_2021-Presente.webp" group-title="Kids",Discovery Kids
 https://freeott.site/discovery/Discovery_Kids.m3u8
 #EXTINF:-1 tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1719833976219.png" group-title="Documentry",Animal Planet
 https://freeott.site/discovery/Animal_Planet.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/ESeGnT2.jpg" group-title="Documentry",Discovery [BANGLA]
-https://varun-iptv.netlify.app/m3u/discoverybengali.m3u8
+http://45.84.58.141:88/BIT0JALBOW/DTNVFTOKYS/100753
 #EXTINF:-1 tvg-logo="https://i.imgur.com/ESeGnT2.jpg" group-title="Documentry",Discovery [HINDI]
 http://30.30.30.30:8088/801/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/4Wfs9kj.png" group-title="Documentry",Discovery Science 
