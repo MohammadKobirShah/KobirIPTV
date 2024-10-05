@@ -5,9 +5,6 @@ http://team-shonamia.ddns.net/disneysdhimu/index.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/2014_Disney_Channel_logo.svg/1200px-2014_Disney_Channel_logo.svg.png" group-title="Kids Streamz by Nayeem", Disney India HD
 https://thenayeemparvez.xyz/txtv/playlist.m3u8?id=d1a7728c188fa2733
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Hungama_TV.svg/1200px-Hungama_TV.svg.png" group-title="Kids Streamz by Nayeem", Hungama Kids
-https://thenayeemparvez.xyz/txtv/playlist.m3u8?id=95e86d2767956308d
-
 #EXTINF:-1 tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-35365-jr3xz4uo-v5/imageContent-35365-jr3xz4uo-m6.png" group-title="Kids Streamz by Nayeem", Super Hungama
 http://superhungama.thenayeemparvez.xyz:28015/play/a02n/index.m3u8
 
