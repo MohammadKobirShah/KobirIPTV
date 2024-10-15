@@ -96,19 +96,16 @@ https://ythls-v3.onrender.com/channel/UC200cnk8CCEkNAIubWtDsLw.m3u8
 #EXTINF:-1 tvg-id="Nayeem's JadooTV" tvg-name="Nayeem's JadooTV" tvg-logo="https://edge01.iptv.digijadoo.net/static/quran_tv.png" group-title="Nayeem's JadooTV", Quran TV
 https://nayeemparvez.online/aila-jadoo/stream.m3u8?id=quran_tv|Referer=https://xnxx.tv/
 #EXTINF:-1 tvg-id="Nayeem's JadooTV" tvg-name="Nayeem's JadooTV" tvg-logo="https://edge01.iptv.digijadoo.net/static/rtv.png" group-title="Nayeem's JadooTV", RTV
-https://nayeemparvez.online/aila-jadoo/stream.m3u8?id=rtv|Referer=https://xnxx.tv/
+https://streamingengine.rtvplus.tv/rtvpluslive/rtvpluslive.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="Nayeem's JadooTV" tvg-name="Nayeem's JadooTV" tvg-logo="https://edge01.iptv.digijadoo.net/static/sa_tv.png" group-title="Nayeem's JadooTV", SATV
 https://nayeemparvez.online/aila-jadoo/stream.m3u8?id=sa_tv|Referer=https://xnxx.tv/
 #EXTINF:-1 tvg-id="Nayeem's JadooTV" tvg-name="Nayeem's JadooTV" tvg-logo="https://edge01.iptv.digijadoo.net/static/somoy_news.png" group-title="Nayeem's JadooTV", Somoy TV
 https://ythls-v3.onrender.com/channel/UCxHoBXkY88Tb8z1Ssj6CWsQ.m3u8
 #EXTINF:-1 tvg-id="Nayeem's JadooTV" tvg-name="Nayeem's JadooTV" tvg-logo="https://edge01.iptv.digijadoo.net/static/t_sports.png" group-title="Nayeem's JadooTV", T Sports HD
-https://nayeemparvez.online/aila-jadoo/stream.m3u8?id=t_sports|Referer=https://xnxx.tv/
+http://30.30.30.30:8088/102/index.m3u8
 #EXTINF:-1 tvg-id="Nayeem's JadooTV" tvg-name="Nayeem's JadooTV" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/0f/Sangeet_Bangla_logo_with_slogan_2021.png" group-title="Nayeem's JadooTV", Sangeet Bangla 
 http://30.30.30.30:8088/702/index.m3u8
-#EXTINF:-1 tvg-id="Nayeem's JadooTV" tvg-name="Nayeem's JadooTV" tvg-logo="https://edge01.iptv.digijadoo.net/static/zee_cinema.png" group-title="Nayeem's JadooTV", Zee Cinema 
-https://nayeemparvez.online/aila-jadoo/stream.m3u8?id=zee_cinema_hd|Referer=https://xnxx.tv/
-#EXTINF:-1 tvg-id="Nayeem's JadooTV" tvg-name="Nayeem's JadooTV" tvg-logo="https://edge01.iptv.digijadoo.net/static/zee_tv.png" group-title="Nayeem's JadooTV", Zee TV
-https://nayeemparvez.online/aila-jadoo/stream.m3u8?id=zee_tv|Referer=https://xnxx.tv/
+
 #EXTINF:-1 tvg-id="Nayeem's JadooTV" tvg-name="Nayeem's JadooTV" tvg-logo="https://edge01.iptv.digijadoo.net/static/9x_jalwa.png" group-title="Nayeem's JadooTV", 9x Jalwa
 https://nayeemparvez.online/aila-jadoo/stream.m3u8?id=9x_jalwa|Referer=https://xnxx.tv/
 
