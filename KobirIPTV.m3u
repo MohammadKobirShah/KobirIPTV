@@ -158,6 +158,7 @@ http://45.84.58.141:88/BIT0JALBOW/DTNVFTOKYS/96185
 http://30.30.30.30:8088/306/index.m3u8
 #EXTINF:-1 tvg-id="sony-max-hd" tvg-name="Sony MAX HD" tvg-country="IN" tvg-logo="https://i.postimg.cc/XYF71G8F/SONY-MAX-HD.png" tvg-chno="sony-max-hd" group-title="Nayeem's SonyLIV",Sony MAX HD
 https://keralamaxtv.com/sliv/stream.php?id=878545&e=.m3u8|Referer=https://keralamaxtv.com/sliv/&key=thenayeemparvez
+http://tv.cloudcdn.me/live.ts?channelId=198&uid=1904&deviceMac=00:1A:79:4C:9A:52
 #EXTINF:-1 tvg-id="sony-max" tvg-name="Sony MAX" tvg-country="IN" tvg-logo="https://i.postimg.cc/X7MmrgCs/SONY-MAX.png" tvg-chno="sony-max" group-title="Nayeem's SonyLIV",Sony MAX
 http://45.84.58.141:88/BIT0JALBOW/DTNVFTOKYS/96180
 #EXTINF:-1 tvg-id="sony-wah" tvg-name="Sony WAH" tvg-country="IN" tvg-logo="https://i.postimg.cc/jq6Qh61g/SONY-WAH.png" tvg-chno="sony-wah" group-title="Nayeem's SonyLIV",Sony WAH
