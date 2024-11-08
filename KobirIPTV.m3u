@@ -33,10 +33,8 @@ http://217.20.112.199/pogo/index.m3u8
 https://freeott.site/discovery/Discovery_Kids.m3u8
 #EXTINF:-1 tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1719833976219.png" group-title="Documentry",Animal Planet
 https://neeplay.com/delta/discovery/api/Animal_Planettv_Hindi.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/ESeGnT2.jpg" group-title="Documentry",Discovery [BANGLA]
-https://cdn1-freeiptv25.vercel.app/m3u/discoverybengali.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/ESeGnT2.jpg" group-title="Documentry",Discovery [HINDI]
-http://30.30.30.30:8088/801/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/ESeGnT2.jpg" group-title="Documentry",Discovery HD
+https://raw.githubusercontent.com/subirkumarpaul/My-iptv/main/Discovery.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/4Wfs9kj.png" group-title="Documentry",Discovery Science 
 https://freeott.site/discovery/Discovery_Science.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://bdiptv.stream/uploads/tv_image/sm/nat-geo-wild.png" group-title="Documentry",National Geographic
