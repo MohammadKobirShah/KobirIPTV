@@ -38,6 +38,7 @@ https://raw.githubusercontent.com/subirkumarpaul/My-iptv/main/Discovery.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/4Wfs9kj.png" group-title="Documentry",Discovery Science 
 https://freeott.site/discovery/Discovery_Science.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://bdiptv.stream/uploads/tv_image/sm/nat-geo-wild.png" group-title="Documentry",National Geographic
+https://nayeemparvez.online/hub-bdx/master.m3u8?id=NGO
 http://30.30.30.30:8088/802/index.m3u8
 
 #EXTM3U
@@ -134,10 +135,6 @@ https://s1.thenayeemparvez.xyz/zeppy-x/stream.m3u8?id=zee-zeeaction
 #EXTINF:-1 tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-11987-j9lura8g-v1/imageContent-11987-j9lura8g-m1.png" group-title="Nayeem's Zee5",Zee Talkies HD
 https://s1.thenayeemparvez.xyz/zeppy-x/stream.m3u8?id=zee-zeetalkies
 
-#EXTINF:-1 group-title="KOLKATA" tvg-logo="https://i.postimg.cc/N0sxVy1G/Sony-Aath-new.png",Sony Aath
-https://keralamaxtv.com/sliv/stream.php?id=195&e=.m3u8|Referer=https://keralamaxtv.com//&key=BDStreamHub
-
-
 #EXTINF:-1 tvg-id="sony-hd" tvg-name="Sony HD (SET HD)" tvg-country="IN" tvg-logo="https://i.postimg.cc/xCV0N1yy/SONY-SET-HD.png" tvg-chno="sony-hd" group-title="Nayeem's SonyLIV",Sony HD (SET HD)
 http://45.84.58.141:88/BIT0JALBOW/DTNVFTOKYS/96179
 #EXTINF:-1 tvg-id="sony-sab-hd" tvg-name="Sony SAB HD" tvg-country="IN" tvg-logo="https://i.postimg.cc/HLrGvfHN/SONY-SAB-HD.png" tvg-chno="sony-sab-hd" group-title="Nayeem's SonyLIV",Sony SAB HD
@@ -180,13 +177,9 @@ https://fifabangladesh.live/VHOD/go.php?id=Sports18_1_HD_voot_MOB
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sports18_1_SD.png"  group-title="VOOT",Sports18_1_SD
 https://fifabangladesh.live/VHOD/go.php?id=Sports18_1_SD_voot_MOB
-  
-#EXTINF:-1 tvg-id=""  tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Colors_SD.png" group-title="VOOT",Colors SD
-https://fifabangladesh.live/VHOD/go.php?id=Colors_voot_MOB
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Colors_HD.png" group-title="VOOT",Colors HD
 https://fifabangladesh.live/VHOD/go.php?id=Colors_HD_voot_MOB
-
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/MTV.png"  group-title="VOOT",MTV
 https://fifabangladesh.live/VHOD/go.php?id=MTV_voot_MOB
@@ -239,10 +232,10 @@ https://fifabangladesh.live/VHOD/go.php?id=Comedy_Central_HD_voot_MOB
 #EXTINF:-1 tvg-id=""  tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Rishtey.png" group-title="VOOT",Colors Rishtey
 https://fifabangladesh.live/VHOD/go.php?id=Colors_Rishtey_voot_MOB
 
-#EXTINF:-1 tvg-id=""  tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Colors_Bangla_HD.png" group-title="VOOT",Colors_Bangla HD
+#EXTINF:-1 tvg-id=""  tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Colors_Bangla_HD.png" group-title="VOOT",Colors Bangla HD
 https://fifabangladesh.live/VHOD/go.php?id=Colors_Bangla_HD_voot_MOB
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Colors_Bangla_Cinema.png" group-title="VOOT",Colors_Bangla Cinema
+#EXTINF:-1 tvg-id="" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Colors_Bangla_Cinema.png" group-title="VOOT",Colors Bangla Cinema
 https://fifabangladesh.live/VHOD/go.php?id=Colors_Bangla_Cinema_voot_MOB
 
 #EXTINF:-1 tvg-id=""  tvg-logo="https://clubbingtv.com/wp-content/uploads/2019/11/Clubbing_TV_logoWhiteCircle.png" group-title="VOOT",Clubbing TV
