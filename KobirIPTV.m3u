@@ -49,6 +49,8 @@ https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26
 #EXTINF:-1 tvg-id="BLOODY_SWEET" tvg-name="9X Jalwa" tvg-type="LIVE" tvg-genre="Music,Bollywood,Music Video,Asian" group-title="Music" tvg-logo="https://a.jsrdn.com/hls/23111/9x-jalwa/poster_20230328_212825.jpg",9X Jalwa
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/9x-jalwa/master.m3u8
 
+#EXTINF:-1 tvg-logo="https://i.ibb.co/wcHcrGC/20240803-101812.png" group-title="KOLKATA", ENTEER TEN BANGLA 
+https://live-bangla.akamaized.net/liveabr/pub-iobanglakp3sff/live_720p/chunks.m3u8
 
 #EXTM3U
 #EXTINF:-1 tvg-id="Nayeem's JadooTV" tvg-name="Nayeem's JadooTV" tvg-logo="https://edge01.iptv.digijadoo.net/static/atn_bangla.png", ATN Bangla
@@ -113,9 +115,6 @@ https://app24.jagobd.com.bd/live-orgin/somoyt000011226615544544.stream/playlist.
 http://30.30.30.30:8088/102/index.m3u8
 #EXTINF:-1 tvg-id="Nayeem's JadooTV" tvg-name="Nayeem's JadooTV" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/0f/Sangeet_Bangla_logo_with_slogan_2021.png" group-title="Nayeem's JadooTV", Sangeet Bangla 
 http://30.30.30.30:8088/702/index.m3u8
-
-#EXTINF:-1 tvg-id="Nayeem's JadooTV" tvg-name="Nayeem's JadooTV" tvg-logo="https://edge01.iptv.digijadoo.net/static/9x_jalwa.png" group-title="Nayeem's JadooTV", 9x Jalwa
-https://nayeemparvez.online/aila-jadoo/stream.m3u8?id=9x_jalwa|Referer=https://xnxx.tv/
 
 #EXTM3U
 #EXTINF:-1 tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-11173-j9hth720-v1/imageContent-11173-j9hth720-m1.png" group-title="Nayeem's Zee5",& Pictures HD
