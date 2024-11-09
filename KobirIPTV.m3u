@@ -118,30 +118,30 @@ http://30.30.30.30:8088/702/index.m3u8
 
 #EXTM3U
 #EXTINF:-1 tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-11173-j9hth720-v1/imageContent-11173-j9hth720-m1.png" group-title="Nayeem's Zee5",& Pictures HD
-https://s1.thenayeemparvez.xyz/zeppy-x/stream.m3u8?id=zee-tvpictureshd
+https://s1.thenayeemparvez.xyz/zeppy-xx/stream.m3u8?id=zee-tvpictureshd
 #EXTINF:-1 tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-11970-j9luk5ag-v1/imageContent-11970-j9luk5ag-m1.png" group-title="Nayeem's Zee5",ZEE Bangla HD
-https://s1.thenayeemparvez.xyz/zeppy-x/stream.m3u8?id=zee-zeebangla
+https://s1.thenayeemparvez.xyz/zeppy-xxx/stream.m3u8?id=zee-zeebangla
 https://fifabd.xyz/STAR7dd/RANAPK/play.m3u8?id=51249
 #EXTINF:-1 group-title="BDIX TV By CRICFy" tvg-logo="https://pb.ihub.live/api/files/8x3xueuva58ilpm/r4a4ewvlkbxk05c/colors_bangla_WqJp82fuF7.jpg", Colors Bangla HD http://30.30.30.30:8088/304/index.m3u8 
 #EXTINF:-1 tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-11915-j9l5clzs-v1/imageContent-11915-j9l5clzs-m1.png" group-title="Nayeem's Zee5",ZEE Cinema HD
-https://s1.thenayeemparvez.xyz/zeppy-x/stream.m3u8?id=zee-zeecinema
+https://s1.thenayeemparvez.xyz/zeppy-xx/stream.m3u8?id=zee-zeecinema
 #EXTINF:-1 tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-117-j5fl7440-v1/imageContent-117-j5fl7440-m1.png" group-title="Nayeem's Zee5",& tv HD
-https://s1.thenayeemparvez.xyz/zeppy-x/stream.m3u8?id=zee-tvhd_0
+https://s1.thenayeemparvez.xyz/zeppy-xx/stream.m3u8?id=zee-tvhd_0
 #EXTINF:-1 tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-11073-j95e7nyo-v1/imageContent-11073-j95e7nyo-m1.png" group-title="Nayeem's Zee5",Zee tv HD
-https://s1.thenayeemparvez.xyz/zeppy-x/stream.m3u8?id=zee-zeetvhd
-https://s1.thenayeemparvez.xyz/zeppy-x/stream.m3u8?id=zee-zeekannada
+https://s1.thenayeemparvez.xyz/zeppy-xx/stream.m3u8?id=zee-zeetvhd
+https://s1.thenayeemparvez.xyz/zeppy-xx/stream.m3u8?id=zee-zeekannada
 #EXTINF:-1 tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-11009-j8xbk7js-v1/imageContent-11009-j8xbk7js-m1.png" group-title="Nayeem's Zee5",Zee Bangla Cinema
-https://s1.thenayeemparvez.xyz/zeppy-x/stream.m3u8?id=zee-zeebanglacinema
+https://s1.thenayeemparvez.xyz/zeppy-xx/stream.m3u8?id=zee-zeebanglacinema
 #EXTINF:-1 tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-12207-j9qlt5vk-v2/imageContent-12207-j9qlt5vk-m2.png" group-title="Nayeem's Zee5",Zee Sarthak
-https://s1.thenayeemparvez.xyz/zeppy-x/stream.m3u8?id=zee-sarthaktv
+https://s1.thenayeemparvez.xyz/zeppy-xx/stream.m3u8?id=zee-sarthaktv
 #EXTINF:-1 tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-31233-jli1wlvc-v1/imageContent-31233-jli1wlvc-m1.png" group-title="Nayeem's Zee5",Zee Bollywood
-https://s1.thenayeemparvez.xyz/zeppy-x/stream.m3u8?id=zee-zeeclassic
+https://s1.thenayeemparvez.xyz/zeppy-xx/stream.m3u8?id=zee-zeeclassic
 #EXTINF:-1 tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-11993-j9luua9c-v1/imageContent-11993-j9luua9c-m1.png" group-title="Nayeem's Zee5",Zing
-https://s1.thenayeemparvez.xyz/zeppy-x/stream.m3u8?id=zee-zing
+https://s1.thenayeemparvez.xyz/zeppy-xx/stream.m3u8?id=zee-zing
 #EXTINF:-1 tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-11024-j8yix4g8-v1/imageContent-11024-j8yix4g8-m1.png" group-title="Nayeem's Zee5",Zee Action
-https://s1.thenayeemparvez.xyz/zeppy-x/stream.m3u8?id=zee-zeeaction
+https://s1.thenayeemparvez.xyz/zeppy-xx/stream.m3u8?id=zee-zeeaction
 #EXTINF:-1 tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-11987-j9lura8g-v1/imageContent-11987-j9lura8g-m1.png" group-title="Nayeem's Zee5",Zee Talkies HD
-https://s1.thenayeemparvez.xyz/zeppy-x/stream.m3u8?id=zee-zeetalkies
+https://s1.thenayeemparvez.xyz/zeppy-xx/stream.m3u8?id=zee-zeetalkies
 
 #EXTINF:-1 tvg-id="sony-hd" tvg-name="Sony HD (SET HD)" tvg-country="IN" tvg-logo="https://i.postimg.cc/xCV0N1yy/SONY-SET-HD.png" tvg-chno="sony-hd" group-title="Nayeem's SonyLIV",Sony HD (SET HD)
 http://45.84.58.141:88/BIT0JALBOW/DTNVFTOKYS/96179
