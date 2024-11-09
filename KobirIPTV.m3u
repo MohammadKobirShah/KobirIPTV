@@ -25,6 +25,7 @@ https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_zknae6Nq0rVK2NY-FnEo8PusqSDTbx0p-g&s" group-title="Kids Streamz by Nayeem", Gubbare Kids
 https://epiconvh.s.llnwi.net/gubbare/master.m3u8
 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbzUPDEfJZ1XosjkWUfMC4MY-4h0B4LDKTNA&s" group-title="Kids Streamz", Pogo Hindi https://colorsscreen.com/live.php?id=559&e=.m3u8|Referer=https://colorsscreen.com/?key=thenayeemparvez&User-Agent=Mozilla/5.0 (Linux; Android 14; SM-S911B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.6668.100 Mobile Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbzUPDEfJZ1XosjkWUfMC4MY-4h0B4LDKTNA&s" group-title="Kids Streamz by Nayeem", Pogo Hindi
 http://217.20.112.199/pogo/index.m3u8
@@ -40,6 +41,14 @@ https://freeott.site/discovery/Discovery_Science.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://bdiptv.stream/uploads/tv_image/sm/nat-geo-wild.png" group-title="Documentry",National Geographic
 https://nayeemparvez.online/hub-bdx/master.m3u8?id=NGO
 http://30.30.30.30:8088/802/index.m3u8
+
+#EXTINF:-1 tvg-id="BLOODY_SWEET" tvg-name="Mastiii - India's No.1 Music and Youth Channel" tvg-type="LIVE" tvg-genre="Music,Bollywood,Music Video,Asian" group-title="Featured" tvg-logo="https://a.jsrdn.com/hls/22973/mastiii/poster_20210706_165834.jpg",Mastiii - India's No.1 Music and Youth Channel
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/mastiii/master.m3u8
+#EXTINF:-1 tvg-id="BLOODY_SWEET" tvg-name="9XM" tvg-type="LIVE" tvg-genre="Music,Bollywood,Music Video,Asian" group-title="Featured" tvg-logo="https://a.jsrdn.com/hls/23111/9xm/poster_20240521_223853.jpg",9XM
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/9xm/master.m3u8
+#EXTINF:-1 tvg-id="BLOODY_SWEET" tvg-name="9X Jalwa" tvg-type="LIVE" tvg-genre="Music,Bollywood,Music Video,Asian" group-title="Music" tvg-logo="https://a.jsrdn.com/hls/23111/9x-jalwa/poster_20230328_212825.jpg",9X Jalwa
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/9x-jalwa/master.m3u8
+
 
 #EXTM3U
 #EXTINF:-1 tvg-id="Nayeem's JadooTV" tvg-name="Nayeem's JadooTV" tvg-logo="https://edge01.iptv.digijadoo.net/static/atn_bangla.png", ATN Bangla
