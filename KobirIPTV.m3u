@@ -7,8 +7,7 @@ https://colorsscreen.com/live.php?id=1345&extension=.m3u8
 https://colorsscreen.com/live.php?id=1341&extension=.m3u8
 
 #EXTINF:-1 tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-132-j5fpedbs-v4/imageContent-132-j5fpedbs-m6.png" group-title="Kids Streamz by Nayeem", Sony Yay Hindi
-http://45.84.58.141:88/BIT0JALBOW/DTNVFTOKYS/96187
-
+https://iptvcable.netlify.app/Altogether-007/Cartoon/SonyYAY.m3u8
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq_OoMGcAbEnLiH_eV-UBYVF7EOL5uHcfQmQ&usqp=CAU" group-title="Kids Streamz by Nayeem", Cartoon Network Hindi
 https://iptvcable.netlify.app/Altogether-007/Cartoon/CartoonNetworkhin.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/d7/Duronto_TV_Logo.png" group-title="Kids Streamz by Nayeem", Duronto TV
