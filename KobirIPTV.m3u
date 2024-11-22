@@ -12,7 +12,7 @@ http://45.84.58.141:88/BIT0JALBOW/DTNVFTOKYS/96187
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq_OoMGcAbEnLiH_eV-UBYVF7EOL5uHcfQmQ&usqp=CAU" group-title="Kids Streamz by Nayeem", Cartoon Network Hindi
 https://iptvcable.netlify.app/Altogether-007/Cartoon/CartoonNetworkhin.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/d7/Duronto_TV_Logo.png" group-title="Kids Streamz by Nayeem", Duronto TV
-https://thenayeemparvez.xyz/txtv/playlist.m3u8?id=39a9bf6c8ace286a6
+https://s1.thenayeemparvez.xyz/jadoo/stream.php?id=duronto_tv
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/39/Maasranga_Television_Logo.jpg/180px-Maasranga_Television_Logo.jpg" group-title="Kids Streamz by Nayeem", Massranga TV
 https://mtv.sunplex.live/MAASRANGA-TV/index.m3u8
@@ -26,7 +26,7 @@ https://epiconvh.s.llnwi.net/gubbare/master.m3u8
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbzUPDEfJZ1XosjkWUfMC4MY-4h0B4LDKTNA&s" group-title="Kids Streamz", Pogo Hindi https://colorsscreen.com/live.php?id=559&e=.m3u8|Referer=https://colorsscreen.com/?key=thenayeemparvez&User-Agent=Mozilla/5.0 (Linux; Android 14; SM-S911B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.6668.100 Mobile Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbzUPDEfJZ1XosjkWUfMC4MY-4h0B4LDKTNA&s" group-title="Kids Streamz by Nayeem", Pogo Hindi
-http://217.20.112.199/pogo/index.m3u8
+https://iptvcable.netlify.app/Altogether-007/Cartoon/POGO.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a9/Discovery_Kids_Logo_2021-Presente.webp" group-title="Kids",Discovery Kids
 https://freeott.site/discovery/Discovery_Kids.m3u8
