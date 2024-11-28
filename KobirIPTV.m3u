@@ -33,8 +33,6 @@ https://freeott.site/discovery/Discovery_Kids.m3u8
 https://neeplay.com/delta/discovery/api/Animal_Planettv_Hindi.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/ESeGnT2.jpg" group-title="Documentry",Discovery HD
 https://raw.githubusercontent.com/subirkumarpaul/My-iptv/main/Discovery.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/4Wfs9kj.png" group-title="Documentry",Discovery Science 
-https://freeott.site/discovery/Discovery_Science.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://bdiptv.stream/uploads/tv_image/sm/nat-geo-wild.png" group-title="Documentry",National Geographic
 https://fifabd.xyz/KIDxRANAPKs/play.m3u8?id=245967
 http://30.30.30.30:8088/802/index.m3u8
@@ -140,20 +138,24 @@ https://s1.thenayeemparvez.xyz/zeppy-xx/stream.m3u8?id=zee-zing
 https://s1.thenayeemparvez.xyz/zeppy-xx/stream.m3u8?id=zee-zeeaction
 #EXTINF:-1 tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-11987-j9lura8g-v1/imageContent-11987-j9lura8g-m1.png" group-title="Nayeem's Zee5",Zee Talkies HD
 https://s1.thenayeemparvez.xyz/zeppy-xx/stream.m3u8?id=zee-zeetalkies
-
 #EXTINF:-1 tvg-logo="https://i.ibb.co/8rjsFNd/20240804-145610.png" group-title="INDIAN", SONY ENTERTAINMENT HD
+https://fifabd.xyz/KIDxRANAPKs/play.m3u8?id=109948
 https://keralamaxtv.com/sliv/stream.php?id=1100&e=.m3u8|Referer=https://keralamaxtv.com/insurance/&key=@FREDFLIXCEO
 #EXTINF:-1 tvg-logo="https://i.ibb.co/HYhhk7T/20240803-110454.png" group-title="INDIAN", SONY SAB HD
+https://fifabd.xyz/KIDxRANAPKs/play.m3u8?id=109953
 https://keralamaxtv.com/sliv/stream.php?id=1201&e=.m3u8|Referer=https://keralamaxtv.com/insurance/&key=@FREDFLIXCEO
 #EXTINF:-1 tvg-logo="https://i.ibb.co/2y9cpyV/20240803-110506.png" group-title="INDIAN", SONY PAL 
+https://fifabd.xyz/KIDxRANAPKs/play.m3u8?id=104192
 https://keralamaxtv.com/sliv/stream.php?id=1894&e=.m3u8|Referer=https://keralamaxtv.com/insurance/&key=@FREDFLIXCEO
 #EXTINF:-1 tvg-logo="https://i.ibb.co/8Xq5NgM/20240804-145843.png" group-title="INDIAN", SONY KAL HD
 https://spt-sonykal-1-us.lg.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/JWLFPrd/20240803-110518.png" group-title="INDIAN", SONY WAH
+https://fifabd.xyz/KIDxRANAPKs/play.m3u8?id=112979
 https://keralamaxtv.com/sliv/stream.php?id=75&e=.m3u8|Referer=https://keralamaxtv.com/insurance/&key=@FREDFLIXCEO
 #EXTINF:-1 tvg-logo="https://i.ibb.co/V9gRprB/20240803-110530.png" group-title="INDIAN", SONY PLX HD
 https://keralamaxtv.com/sliv/stream.php?id=785&e=.m3u8|Referer=https://keralamaxtv.com/insurance/&key=@FREDFLIXCEO
 #EXTINF:-1 tvg-logo="https://i.ibb.co/wC03Z8j/20240803-162312.png" group-title="INDIAN", SONY MAX HD
+https://fifabd.xyz/KIDxRANAPKs/play.m3u8?id=109957
 https://keralamaxtv.com/sliv/stream.php?id=878545&e=.m3u8|Referer=https://keralamaxtv.com/insurance/&key=@FREDFLIXCEO
 #EXTINF:-1 tvg-logo="https://i.ibb.co/bB7yy7k/20240804-182624.png" group-title="INDIAN", SONY MARATHI
 https://keralamaxtv.com/sliv/stream.php?id=1378&e=.m3u8|Referer=https://keralamaxtv.com/insurance/&key=@FREDFLIXCEO
@@ -164,9 +166,6 @@ https://keralamaxtv.com/sliv/stream.php?id=123&e=.m3u8|Referer=https://keralamax
 https://keralamaxtv.com/sliv/stream.php?id=852&e=.m3u8|Referer=https://keralamaxtv.com/insurance/&key=@FREDFLIXCEO
 #EXTINF:-1 tvg-logo="https://i.ibb.co/PMRGhZT/20240803-102021.png" group-title="KOLKATA", SONY AATH
 https://keralamaxtv.com/sliv/stream.php?id=195&e=.m3u8|Referer=https://keralamaxtv.com/insurance/&key=@FREDFLIXCEO
-#EXTINF:-1 tvg-logo="https://i.ibb.co/ys79Yrg/20240803-101434.png" group-title="KIDS", SONY YAY
-https://keralamaxtv.com/sliv/stream.php?id=168569&e=.m3u8|Referer=https://keralamaxtv.com/insurance/&key=@FREDFLIXCEO
-
 
 #EXTINF:-1 tvg-id="sony-ten-1-hd" tvg-name="Sony Sports Ten 1 HD" tvg-country="IN" tvg-logo="https://i.postimg.cc/d00sTpK0/SONY-SPORTS-TEN-1-HD.png" tvg-chno="sony-ten-1-hd" group-title="Nayeem's SonyLIV",Sony Sports Ten 1 HD
 https://its-nayeemparvez.xyz/sliv/playlist.m3u8?id=ten1_hd
