@@ -1,3 +1,5 @@
+#EXTM3U x-tvg-url="https://avkb.short.gy/tsepg.xml.gz"
+
 #EXTINF:-1 tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-35365-jr3xz4uo-v5/imageContent-35365-jr3xz4uo-m6.png" group-title="Kids Streamz by Nayeem", Super Hungama
 http://superhungama.thenayeemparvez.xyz:28015/play/a02n/index.m3u8
 
