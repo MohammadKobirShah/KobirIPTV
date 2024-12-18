@@ -1,16 +1,13 @@
 #EXTM3U x-tvg-url="https://avkb.short.gy/tsepg.xml.gz"
 
-#EXTINF:-1 tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-35365-jr3xz4uo-v5/imageContent-35365-jr3xz4uo-m6.png" group-title="Kids Streamz by Nayeem", Super Hungama
-http://superhungama.thenayeemparvez.xyz:28015/play/a02n/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-8018-j7a7n1a8-v1/imageContent-8018-j7a7n1a8-m1.png" group-title="Kids Streamz by Nayeem", Sonic Bangla
+#EXTINF:-1 tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-8018-j7a7n1a8-v1/imageContent-8018-j7a7n1a8-m1.png" group-title="Kids Streamz by Nayeem", Sonic
 https://colorsscreen.com/live.php?id=1345&extension=.m3u8
-#EXTINF:-1 tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-465-j5jw9va0-v1/imageContent-465-j5jw9va0-m1.png" group-title="Kids Streamz by Nayeem", Nick Bangla
+#EXTINF:-1 tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-465-j5jw9va0-v1/imageContent-465-j5jw9va0-m1.png" group-title="Kids Streamz by Nayeem", Nick
 https://port.denver1769.in/oplx7.php?tv=150482
 
 #EXTINF:-1 tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-132-j5fpedbs-v4/imageContent-132-j5fpedbs-m6.png" group-title="Kids Streamz by Nayeem", Sony Yay Hindi
 https://iptvcable.netlify.app/Altogether-007/Cartoon/SonyYAY.m3u8
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq_OoMGcAbEnLiH_eV-UBYVF7EOL5uHcfQmQ&usqp=CAU" group-title="Kids Streamz by Nayeem", Cartoon Network Hindi
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq_OoMGcAbEnLiH_eV-UBYVF7EOL5uHcfQmQ&usqp=CAU" group-title="Kids Streamz by Nayeem", Cartoon Network 
 https://iptvcable.netlify.app/Altogether-007/Cartoon/CartoonNetworkhin.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/d7/Duronto_TV_Logo.png" group-title="Kids Streamz by Nayeem", Duronto TV
 https://tvs1.aynaott.com/durontotv/index.m3u8?hdnts=st=1734554204~exp=1734597404~acl=/byte-capsule/*~data=69.57.172.5-WEB~hmac=2f0da71ab0916f78eb83cf23db4811f583fbc4f3143e216025acaf8c3976345f
