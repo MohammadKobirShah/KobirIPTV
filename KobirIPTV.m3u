@@ -1,10 +1,10 @@
 #EXTM3U x-tvg-url="https://avkb.short.gy/tsepg.xml.gz"
 
 #EXTINF:-1 tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-8018-j7a7n1a8-v1/imageContent-8018-j7a7n1a8-m1.png" group-title="Kids", Sonic Bangla
-https://jcevents.jiocinema.com/bpk-tv/JC_SonicNick/JCHLS/hdntl=exp=1735010080~acl=%2f*~id=bdd5cf035be1ed4290b68b8d09ad1a4e~data=hdntl~hmac=30f146eeac5a01353a9f96aaa7c9427da58b0d71048a98afc877f17e392a52fe/JC_SonicNick-audio_98846_ben=98800-video=863200.m3u8
+https://github.com/MohammadKobirShah/KobirIPTV/raw/refs/heads/main/Sonic%20Bangla.m3u8
 
 #EXTINF:-1 tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-465-j5jw9va0-v1/imageContent-465-j5jw9va0-m1.png" group-title="Kids", Nick Bangla
-https://jcevents.jiocinema.com/bpk-tv/JC_NickSD/JCHLS/hdntl=exp=1735010080~acl=%2f*~id=bdd5cf035be1ed4290b68b8d09ad1a4e~data=hdntl~hmac=30f146eeac5a01353a9f96aaa7c9427da58b0d71048a98afc877f17e392a52fe/JC_NickSD-audio_98846_ben=98800-video=1680400.m3u8
+https://github.com/MohammadKobirShah/KobirIPTV/raw/refs/heads/main/Nick%20Bangla.m3u8
 https://port.denver1769.in/oplx7.php?tv=150482
 
 #EXTINF:-1 tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-132-j5fpedbs-v4/imageContent-132-j5fpedbs-m6.png" group-title="Kids", Sony Yay Hindi
