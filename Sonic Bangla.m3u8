@@ -4,14 +4,14 @@
 
 # variants
 #EXT-X-STREAM-INF:BANDWIDTH=212000,AVERAGE-BANDWIDTH=193000,CODECS="mp4a.40.2,avc1.42E00D",RESOLUTION=416x234,FRAME-RATE=25
-https://jcevents.jiocinema.com/bpk-tv/JC_SonicNick/JCHLS/hdntl=exp=1735099458~acl=%2f*~id=e14d2a6aa087b96f4822a540615288ff~data=hdntl~hmac=6ea15babdb108107024079a0ffef488ff3a506c14b1f296fc2dfacf9db870215/JC_SonicNick-audio_98846_ben=98800-video=148000.m3u8
+https://jcevents.jiocinema.com/bpk-tv/JC_NickSD/JCHLS/hdntl=exp=1735099458~acl=%2f*~id=e14d2a6aa087b96f4822a540615288ff~data=hdntl~hmac=6ea15babdb108107024079a0ffef488ff3a506c14b1f296fc2dfacf9db870215/JC_SonicNick-audio_98846_ben=98800-video=148000.m3u8
 #EXT-X-STREAM-INF:BANDWIDTH=467000,AVERAGE-BANDWIDTH=424000,CODECS="mp4a.40.2,avc1.42E015",RESOLUTION=512x288,FRAME-RATE=25
-https://jcevents.jiocinema.com/bpk-tv/JC_SonicNick/JCHLS/hdntl=exp=1735099458~acl=%2f*~id=e14d2a6aa087b96f4822a540615288ff~data=hdntl~hmac=6ea15babdb108107024079a0ffef488ff3a506c14b1f296fc2dfacf9db870215/JC_SonicNick-audio_98846_ben=98800-video=301200.m3u8
+https://jcevents.jiocinema.com/bpk-tv/JC_NickSD/JCHLS/hdntl=exp=1735099458~acl=%2f*~id=e14d2a6aa087b96f4822a540615288ff~data=hdntl~hmac=6ea15babdb108107024079a0ffef488ff3a506c14b1f296fc2dfacf9db870215/JC_SonicNick-audio_98846_ben=98800-video=301200.m3u8
 #EXT-X-STREAM-INF:BANDWIDTH=824000,AVERAGE-BANDWIDTH=749000,CODECS="mp4a.40.2,avc1.4D401F",RESOLUTION=864x486,FRAME-RATE=25
-https://jcevents.jiocinema.com/bpk-tv/JC_SonicNick/JCHLS/hdntl=exp=1735099458~acl=%2f*~id=e14d2a6aa087b96f4822a540615288ff~data=hdntl~hmac=6ea15babdb108107024079a0ffef488ff3a506c14b1f296fc2dfacf9db870215/JC_SonicNick-audio_98846_ben=98800-video=607600.m3u8
+https://jcevents.jiocinema.com/bpk-tv/JC_NickSD/JCHLS/hdntl=exp=1735099458~acl=%2f*~id=e14d2a6aa087b96f4822a540615288ff~data=hdntl~hmac=6ea15babdb108107024079a0ffef488ff3a506c14b1f296fc2dfacf9db870215/JC_SonicNick-audio_98846_ben=98800-video=607600.m3u8
 #EXT-X-STREAM-INF:BANDWIDTH=1122000,AVERAGE-BANDWIDTH=1020000,CODECS="mp4a.40.2,avc1.4D401F",RESOLUTION=1024x576,FRAME-RATE=25
-https://jcevents.jiocinema.com/bpk-tv/JC_SonicNick/JCHLS/hdntl=exp=1735099458~acl=%2f*~id=e14d2a6aa087b96f4822a540615288ff~data=hdntl~hmac=6ea15babdb108107024079a0ffef488ff3a506c14b1f296fc2dfacf9db870215/JC_SonicNick-audio_98846_ben=98800-video=863200.m3u8
+https://jcevents.jiocinema.com/bpk-tv/JC_NickSD/JCHLS/hdntl=exp=1735099458~acl=%2f*~id=e14d2a6aa087b96f4822a540615288ff~data=hdntl~hmac=6ea15babdb108107024079a0ffef488ff3a506c14b1f296fc2dfacf9db870215/JC_SonicNick-audio_98846_ben=98800-video=863200.m3u8
 #EXT-X-STREAM-INF:BANDWIDTH=2075000,AVERAGE-BANDWIDTH=1886000,CODECS="mp4a.40.2,avc1.64001F",RESOLUTION=1024x576,FRAME-RATE=25
-https://jcevents.jiocinema.com/bpk-tv/JC_SonicNick/JCHLS/hdntl=exp=1735099458~acl=%2f*~id=e14d2a6aa087b96f4822a540615288ff~data=hdntl~hmac=6ea15babdb108107024079a0ffef488ff3a506c14b1f296fc2dfacf9db870215/JC_SonicNick-audio_98846_ben=98800-video=1680400.m3u8
+https://jcevents.jiocinema.com/bpk-tv/JC_NickSD/JCHLS/hdntl=exp=1735099458~acl=%2f*~id=e14d2a6aa087b96f4822a540615288ff~data=hdntl~hmac=6ea15babdb108107024079a0ffef488ff3a506c14b1f296fc2dfacf9db870215/JC_SonicNick-audio_98846_ben=98800-video=1680400.m3u8
 #EXT-X-STREAM-INF:BANDWIDTH=3267000,AVERAGE-BANDWIDTH=2970000,CODECS="mp4a.40.2,avc1.64001F",RESOLUTION=1024x576,FRAME-RATE=25
-https://jcevents.jiocinema.com/bpk-tv/JC_SonicNick/JCHLS/hdntl=exp=1735099458~acl=%2f*~id=e14d2a6aa087b96f4822a540615288ff~data=hdntl~hmac=6ea15babdb108107024079a0ffef488ff3a506c14b1f296fc2dfacf9db870215/JC_SonicNick-audio_98846_ben=98800-video=2702400.m3u8
+https://jcevents.jiocinema.com/bpk-tv/JC_NickSD/JCHLS/hdntl=exp=1735099458~acl=%2f*~id=e14d2a6aa087b96f4822a540615288ff~data=hdntl~hmac=6ea15babdb108107024079a0ffef488ff3a506c14b1f296fc2dfacf9db870215/JC_SonicNick-audio_98846_ben=98800-video=2702400.m3u8
