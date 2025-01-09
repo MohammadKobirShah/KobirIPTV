@@ -173,8 +173,7 @@ https://keralamaxtv.com/sliv/stream.php?id=123&e=.m3u8|Referer=https://keralamax
 #EXTINF:-1 tvg-logo="https://i.ibb.co/R3fMcXw/20240803-110545.png" group-title="DOCUMENTRY", SONY BBC EARTH HD
 https://keralamaxtv.com/sliv/stream.php?id=852&e=.m3u8|Referer=https://keralamaxtv.com/insurance/&key=@FREDFLIXCEO
 #EXTINF:-1 tvg-logo="https://i.ibb.co/PMRGhZT/20240803-102021.png" group-title="KOLKATA", SONY AATH
-https://keralamaxtv.com/sliv/stream.php?id=195&e=.m3u8|Referer=https://keralamaxtv.com/insurance/&key=@FREDFLIXCEO
-https://tataplaymt.slivcdn.com/hls/live/2011641/SonyAathSD/master.m3u8?hdnea=st=1734443808~exp=1734444108~acl=*~id=f890a4c1-829e-45e4-9c33-b464aeea16bd~hmac=964e648cd07f5bef82b80a0df85e2cf0974927ed34b7ddb0cdaa700f3bfd190c&sku_name=Free
+https://live.drmlive-02.workers.dev/sliv/aath.m3u8
 
 #EXTINF:-1 tvg-id="sony-ten-1-hd" tvg-name="Sony Sports Ten 1 HD" tvg-country="IN" tvg-logo="https://i.postimg.cc/d00sTpK0/SONY-SPORTS-TEN-1-HD.png" tvg-chno="sony-ten-1-hd" group-title="Nayeem's SonyLIV",Sony Sports Ten 1 HD
 https://its-nayeemparvez.xyz/sliv/playlist.m3u8?id=ten1_hd
