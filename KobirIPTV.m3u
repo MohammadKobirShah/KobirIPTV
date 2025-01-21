@@ -139,40 +139,53 @@ https://la.drmlive.au/tp/zee-zing.m3u8
 https://la.drmlive.au/tp/zee-zeeaction.m3u8
 #EXTINF:-1 tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-11987-j9lura8g-v1/imageContent-11987-j9lura8g-m1.png" group-title="Nayeem's Zee5",Zee Talkies HD
 https://la.drmlive.au/tp/zee-zeetalkies.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/8rjsFNd/20240804-145610.png" group-title="INDIAN", Sony Entertainment Television HD
-https://port.yuvraj.fun/ch/15.m3u8
-https://fifabd.xyz/KIDxRANAPKs/play.m3u8?id=109948
-https://keralamaxtv.com/sliv/stream.php?id=1100&e=.m3u8|Referer=https://keralamaxtv.com/insurance/&key=@FREDFLIXCEO
-#EXTINF:-1 tvg-logo="https://i.ibb.co/HYhhk7T/20240803-110454.png" group-title="INDIAN", SONY SAB HD
-https://port.yuvraj.fun/ch/48.m3u8
-https://tataplaymt.slivcdn.com/hls/live/2011749/SABHD/master.m3u8?hdnea=st=1734444877~exp=1734445177~acl=*~id=8d650c1e-21e8-443f-b104-a0f149a4bbc5~hmac=2f5777fc5d19c16e754f6a2a3fc31ebeabf4111eba5fac354fe2256085e031eb&sku_name=Free
-https://fifabd.xyz/KIDxRANAPKs/play.m3u8?id=109953
-https://keralamaxtv.com/sliv/stream.php?id=1201&e=.m3u8|Referer=https://keralamaxtv.com/insurance/&key=@FREDFLIXCEO
-#EXTINF:-1 tvg-logo="https://i.ibb.co/2y9cpyV/20240803-110506.png" group-title="INDIAN", SONY PAL 
-
-https://tataplaymt.slivcdn.com/hls/live/2011741/SonyPalSD/master.m3u8?hdnea=st=1734444709~exp=1734445009~acl=*~id=568635bd-fd7e-4ec5-957b-8f82135b4df0~hmac=5b96d0dff41fe0baa95d93e1742026e5e86caa75a07aed067791da7d5526503e&sku_name=Free
-https://fifabd.xyz/KIDxRANAPKs/play.m3u8?id=104192
-https://keralamaxtv.com/sliv/stream.php?id=1894&e=.m3u8|Referer=https://keralamaxtv.com/insurance/&key=@FREDFLIXCEO
-#EXTINF:-1 tvg-logo="https://i.ibb.co/8Xq5NgM/20240804-145843.png" group-title="INDIAN", SONY KAL HD
+#############################################       SONYLiV        #############################################################
+#EXTINF:-1 tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_HD.png" group-title="Entertainment",SONY HD
+https://la.drmlive.au/tp/sliv-sony.m3u8
+#EXTINF:-1 tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_SAB_HD.png" group-title="Entertainment",SONY SAB HD
+https://la.drmlive.au/tp/sliv-sab.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/ZqnmcXdx/Sony-KAL.png" group-title="Entertainment",SONY KAL
 https://spt-sonykal-1-us.lg.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/JWLFPrd/20240803-110518.png" group-title="INDIAN", SONY WAH
-https://tataplaymt.slivcdn.com/hls/live/2011906/SonyWah/master.m3u8?hdnea=st=1734444553~exp=1734444853~acl=*~id=6c57b0ad-f674-44fc-8f37-0b80a6264675~hmac=74e822d1958eb1a11451b2f5a47c37fb164d5bd7d0c4a731b3a58bf460a21cba&sku_name=Free
-https://fifabd.xyz/KIDxRANAPKs/play.m3u8?id=112979
-https://keralamaxtv.com/sliv/stream.php?id=75&e=.m3u8|Referer=https://keralamaxtv.com/insurance/&key=@FREDFLIXCEO
-#EXTINF:-1 tvg-logo="https://i.ibb.co/V9gRprB/20240803-110530.png" group-title="INDIAN", SONY PIX HD
-https://tataplaymt.slivcdn.com/hls/live/2011748/PIXHD/master.m3u8?hdnea=st=1734444990~exp=1734445290~acl=*~id=1298aad3-044c-41b7-823e-d30b09f6f442~hmac=b246abd250d4265a05abb15d9b96a529d5b9a8283fdece182a3f88b99853f464&sku_name=Free
-https://keralamaxtv.com/sliv/stream.php?id=785&e=.m3u8|Referer=https://keralamaxtv.com/insurance/&key=@FREDFLIXCEO
-#EXTINF:-1 tvg-logo="https://i.ibb.co/wC03Z8j/20240803-162312.png" group-title="INDIAN", SONY MAX HD
-https://tataplaymt.slivcdn.com/hls/live/2011670/SonyMaxhd/master.m3u8?hdnea=st=1734444238~exp=1734444538~acl=*~id=5580f8d6-9312-4ca3-926b-e8d860fc869a~hmac=d0ca528fb78b8217dcbc09f3158122c23bdf8454316ae7247d201417cd1079b6&sku_name=Free
-https://fifabd.xyz/KIDxRANAPKs/play.m3u8?id=109957
-https://keralamaxtv.com/sliv/stream.php?id=878545&e=.m3u8|Referer=https://keralamaxtv.com/insurance/&key=@FREDFLIXCEO
-#EXTINF:-1 tvg-logo="https://i.ibb.co/120X9VJ/20240804-180037.png" group-title="INDIAN", SONY MAX 2 
-https://tataplaymt.slivcdn.com/hls/live/2011908/MAX2/master.m3u8?hdnea=st=1734445162~exp=1734445462~acl=*~id=595f524a-977f-405d-8f49-d8d1513324a1~hmac=2010f4a688c115b2297aad1290fb63b7c6343b077c516cb84d0cf4cf2b1803f6&sku_name=Free
-https://keralamaxtv.com/sliv/stream.php?id=123&e=.m3u8|Referer=https://keralamaxtv.com/insurance/&key=@FREDFLIXCEO
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/R3fMcXw/20240803-110545.png" group-title="DOCUMENTRY", SONY BBC EARTH HD
-https://keralamaxtv.com/sliv/stream.php?id=852&e=.m3u8|Referer=https://keralamaxtv.com/insurance/&key=@FREDFLIXCEO
-#EXTINF:-1 tvg-logo="https://i.ibb.co/PMRGhZT/20240803-102021.png" group-title="KOLKATA", SONY AATH
+#EXTINF:-1 tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Pal.png" group-title="Entertainment",SONY PAL
+https://la.drmlive.au/tp/sliv-pal.m3u8
+#EXTINF:-1 tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Wah.png" group-title="Movie",SONY WAH
+https://la.drmlive.au/tp/sliv-wah.m3u8
+#EXTINF:-1 tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/SET_MAX.png" group-title="Movie",SONY MAX
+https://la.drmlive.au/tp/sliv-max.m3u8
+#EXTINF:-1 tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Max_HD.png" group-title="Movie",SONY MAX HD
+https://la.drmlive.au/tp/sliv-maxhd.m3u8
+#EXTINF:-1 tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_MAX2.png" group-title="Movie",SONY MAX2
+https://la.drmlive.au/tp/sliv-max2.m3u8
+#EXTINF:-1 tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_1.png" group-title="Sports",SONY TEN 1  P LAY LI V TV
+https://la.drmlive.au/tp/sliv-ten1.m3u8
+#EXTINF:-1 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_2.png" group-title="Sports",SONY TEN 2
+https://la.drmlive.au/tp/sliv-ten2.m3u8
+#EXTINF:-1 tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_3.png" group-title="Sports",SONY TEN 3 P LAY L I V TV
+https://la.drmlive.au/tp/sliv-ten3.m3u8
+#EXTINF:-1 tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen4_SD_Logo_CLR.png" group-title="Sports",SONY TEN 4 
+https://la.drmlive.au/tp/sliv-ten4.m3u8
+#EXTINF:-1 tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen5_SD_Logo_CLR.png" group-title="Sports",SONY TEN 5 
+https://la.drmlive.au/tp/sliv-ten5.m3u8
+#EXTINF:-1 tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_HD.png" group-title="Sports",SONY TEN 1 HD
+https://la.drmlive.au/tp/sliv-ten1hd.m3u8
+#EXTINF:-1 tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten2_HD.png" group-title="Sports",SONY TEN 2 HD
+https://la.drmlive.au/tp/sliv-ten2hd.m3u8
+#EXTINF:-1 tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten3_HD.png" group-title="Sports",SONY TEN 3 HD
+https://la.drmlive.au/tp/sliv-ten3hd.m3u8
+#EXTINF:-1 tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen4_HD_Logo_CLR.png" group-title="Sports",SONY TEN 4 HD
+https://zeslivstream.playlivtv.workers.dev/?id=sliv-ten4hd
+#EXTINF:-1 tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen5_HD_Logo_CLR.png" group-title="Sports",SONY TEN 5 HD
+https://la.drmlive.au/tp/sliv-ten5hd.m3u8
+#EXTINF:-1 tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_BBC_Earth_HD.png" group-title="Documentary",SONY BBC EARTH
+https://la.drmlive.au/tp/sliv-bbc.m3u8
+#EXTINF:-1 tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Yay_Hindi.png" group-title="Kids",SONY YAY
+https://la.drmlive.au/tp/sliv-yay.m3u8
+#EXTINF:-1 tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Pix_HD.png" group-title="ENG Movies",SONY PIX HD
+https://la.drmlive.au/tp/sliv-pix.m3u8
+#EXTINF:-1 tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Marathi_SD.png" group-title="Entertainment",SONY MARATHI
+https://la.drmlive.au/tp/sliv-marathi.m3u8
+#EXTINF:-1 tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_aath.png" group-title="Entertainment",SONY AATH 
+https://la.drmlive.au/tp/sliv-aath.m3u8
 https://live.drmlive-02.workers.dev/sliv/aath.m3u8
 
 #EXTINF:-1 tvg-id="sony-ten-1-hd" tvg-name="Sony Sports Ten 1 HD" tvg-country="IN" tvg-logo="https://i.postimg.cc/d00sTpK0/SONY-SPORTS-TEN-1-HD.png" tvg-chno="sony-ten-1-hd" group-title="Nayeem's SonyLIV",Sony Sports Ten 1 HD
