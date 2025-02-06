@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles.css">
     
     <!-- JW Player Library -->
-    <script src="https://cdn.jwplayer.com/libraries/KB5zFt7A.js"></script>
+    <script src="https://content.jwplatform.com/libraries/KB5zFt7A.js"></script>
     
     <style>
         body {
@@ -75,20 +75,6 @@
             margin: 5px 0;
         }
 
-        /* JW Player Container */
-        #player-container {
-            width: 80%;
-            margin: 20px auto;
-            display: none;
-        }
-
-        #current-channel {
-            font-size: 18px;
-            font-weight: bold;
-            color: #fff;
-            margin-top: 10px;
-        }
-
         @media (max-width: 1024px) {
             .channel-card { width: calc(25% - 20px); }
         }
@@ -111,21 +97,12 @@
         <input type="text" id="search" placeholder="🔎 Search for a channel..." onkeyup="filterChannels()">
     </div>
     
-    <!-- Video Player -->
-    <div id="player-container">
-        <div id="current-channel"></div> <!-- Bold "You're Watching" Text -->
-        <div id="jwplayer"></div>
-    </div>
-
     <!-- Channels Grid -->
     <div class="channel-container" id="channel-list"></div>
 
     <script>
         const m3uUrl = "https://kailivetv.vercel.app/sliv.m3u"; // Replace with actual M3U playlist URL
         const channelList = document.getElementById("channel-list");
-        const playerContainer = document.getElementById("player-container");
-        const currentChannelText = document.getElementById("current-channel");
-        let jwplayerInstance = null;
         let channels = [];
 
         // Fetch and Parse M3U Playlist
@@ -174,52 +151,68 @@
                 `;
 
                 card.addEventListener("click", () => {
-                    playChannel(channel.name, channel.url);
+                    openPlayer(channel.name, channel.url);
                 });
 
                 channelList.appendChild(card);
             });
         }
 
-        // Function to Play Channel with JW Player
-        function playChannel(channelName, streamUrl) {
-            playerContainer.style.display = "block";
-            currentChannelText.innerHTML = `📺 You're Watching: <b>${channelName}</b>`;
-
-            if (jwplayerInstance) {
-                jwplayerInstance.load([{
-                    file: streamUrl,
-                    title: channelName,
-                    description: `You're Watching ${channelName}`,
-                    tracks: [
-                        { file: "https://example.com/subtitles-en.vtt", label: "English", kind: "captions", default: true },
-                        { file: "https://example.com/subtitles-es.vtt", label: "Español", kind: "captions" }
-                    ]
-                }]);
-                jwplayerInstance.play();
-            } else {
-                jwplayerInstance = jwplayer("jwplayer").setup({
-                    playlist: [{
-                        file: streamUrl,
-                        title: channelName,
-                        description: `You're Watching ${channelName}`,
-                        tracks: [
-                            { file: "https://example.com/subtitles-en.vtt", label: "English", kind: "captions", default: true },
-                            { file: "https://example.com/subtitles-es.vtt", label: "Español", kind: "captions" }
-                        ]
-                    }],
-                    width: "100%",
-                    aspectratio: "16:9",
-                    autostart: true,
-                    skin: { name: "netflix" },
-                    captions: {
-                        color: "#FFF",
-                        fontSize: 14,
-                        backgroundOpacity: 0,
-                        edgeStyle: "raised"
-                    }
-                });
-            }
+        // Function to Open JW Player in New Window
+        function openPlayer(channelName, streamUrl) {
+            const playerWindow = window.open("", channelName, "width=960,height=540,resizable=yes");
+            playerWindow.document.write(`
+                <!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1">
+                    <title>${channelName}</title>
+                    <script src="https://content.jwplatform.com/libraries/KB5zFt7A.js"></script>
+                    <style>
+                        body {
+                            background-color: #000;
+                            color: #fff;
+                            text-align: center;
+                            font-family: Arial, sans-serif;
+                            margin: 0;
+                        }
+                        h2 {
+                            font-size: 20px;
+                            font-weight: bold;
+                            margin: 10px 0;
+                        }
+                        #player {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    </style>
+                </head>
+                <body>
+                    <h2>📺 You're Watching: <b>${channelName}</b></h2>
+                    <div id="player"></div>
+                    <script>
+                        jwplayer("player").setup({
+                            file: "${streamUrl}",
+                            width: "100%",
+                            aspectratio: "16:9",
+                            autostart: true,
+                            skin: { name: "netflix" },
+                            captions: {
+                                color: "#FFF",
+                                fontSize: 14,
+                                backgroundOpacity: 0,
+                                edgeStyle: "raised"
+                            },
+                            tracks: [
+                                { file: "https://example.com/subtitles-en.vtt", label: "English", kind: "captions", default: true },
+                                { file: "https://example.com/subtitles-es.vtt", label: "Español", kind: "captions" }
+                            ]
+                        });
+                    </script>
+                </body>
+                </html>
+            `);
         }
 
         // 🔎 Search Function
