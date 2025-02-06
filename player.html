@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sonyliv Player</title>
+    <title>Sonyliv Player with HLS.js & JW Player</title>
     <style>
         body {
             margin: 0;
@@ -14,52 +14,104 @@
         }
         #player {
             position: absolute;
-            width: 100% !important;
-            height: 100% !important;
+            width: 100%;
+            height: 100%;
         }
     </style>
+    <!-- Include HLS.js Library -->
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    <!-- Include JW Player Library -->
+    <script src="https://content.jwplatform.com/libraries/KB5zFt7A.js"></script>
 </head>
 <body>
-
     <div id="player"></div>
-    <script src="https://content.jwplatform.com/libraries/KB5zFt7A.js"></script>
     <script>
+        /**
+         * Parse Query Parameters from URL
+         * Returns an object with all query parameters
+         */
         function getQueryParams() {
             const params = new URLSearchParams(window.location.search);
             return {
-                url: params.get("url")
+                url: params.get("url") // Extract the "url" parameter
             };
         }
 
+        /**
+         * Setup Video Player with HLS.js or JW Player
+         * @param {string} videoUrl - The video stream URL
+         */
         function setupPlayer(videoUrl) {
             if (!videoUrl) {
                 alert("Error: No valid stream URL provided.");
                 return;
             }
 
-            const playerInstance = jwplayer("player").setup({
-                controls: true,
-                autoplay: true,
-                displaytitle: false,
-                displaydescription: false,
-                abouttext: "Video Player By DRMLIVE",
-                aboutlink: "https://t.me/+_RiCu2cz5TkxZmU1",
-                skin: { name: "netflix" },
-                playlist: [
-                    {
-                        sources: [{ file: videoUrl, type: "hls", label: "1080p", default: true }]
-                    }
-                ]
-            });
+            // Use HLS.js if supported and the URL is an HLS stream
+            if (Hls.isSupported() && videoUrl.endsWith('.m3u8')) {
+                const videoElement = document.createElement('video');
+                videoElement.id = "hls-player";
+                videoElement.controls = true;
+                videoElement.style.width = "100%";
+                videoElement.style.height = "100%";
 
-            playerInstance.on("error", () => {
-                alert("Stream failed to load. Please try another channel.");
-            });
+                // Add video element to the player container
+                document.getElementById("player").appendChild(videoElement);
+
+                const hls = new Hls();
+                hls.loadSource(videoUrl);
+                hls.attachMedia(videoElement);
+
+                // Play video after the manifest is parsed
+                hls.on(Hls.Events.MANIFEST_PARSED, function () {
+                    videoElement.play();
+                });
+
+                // Handle HLS.js errors
+                hls.on(Hls.Events.ERROR, function (event, data) {
+                    if (data.fatal) {
+                        switch (data.type) {
+                            case Hls.ErrorTypes.NETWORK_ERROR:
+                                alert("A network error occurred. Please check your connection.");
+                                break;
+                            case Hls.ErrorTypes.MEDIA_ERROR:
+                                alert("A media error occurred.");
+                                break;
+                            default:
+                                alert("An unknown error occurred.");
+                                hls.destroy();
+                                break;
+                        }
+                    }
+                });
+
+            } else {
+                // Fallback to JW Player if HLS.js is not supported
+                const playerInstance = jwplayer("player").setup({
+                    controls: true,
+                    autoplay: true,
+                    displaytitle: false,
+                    displaydescription: false,
+                    abouttext: "Video Player By DRMLIVE",
+                    aboutlink: "https://t.me/+_RiCu2cz5TkxZmU1",
+                    skin: { name: "netflix" },
+                    playlist: [
+                        {
+                            sources: [{ file: videoUrl, type: "hls", label: "1080p", default: true }]
+                        }
+                    ]
+                });
+
+                // Handle JW Player errors
+                playerInstance.on("error", () => {
+                    alert("Stream failed to load. Please try another channel.");
+                });
+            }
         }
 
+        // Extract URL parameter and set up the player
         const { url } = getQueryParams();
         setupPlayer(url);
     </script>
-
 </body>
 </html>
