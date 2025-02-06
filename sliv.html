@@ -4,10 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Sonyliv Channels</title>
-
-    <!-- JW Player Library -->
-    <script src="https://content.jwplatform.com/libraries/KB5zFt7A.js"></script>
-
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -75,21 +71,7 @@
             margin: 5px 0;
         }
 
-        #player-container {
-            width: 80%;
-            margin: 20px auto;
-            display: none;
-        }
-
-        #current-channel {
-            font-size: 18px;
-            font-weight: bold;
-            color: #fff;
-            margin-top: 10px;
-        }
-
         @media (max-width: 768px) {
-            #player-container { width: 100%; }
             .channel-card { width: calc(33.33% - 20px); }
         }
 
@@ -105,20 +87,12 @@
     <div class="search-container">
         <input type="text" id="search" placeholder="🔎 Search for a channel..." onkeyup="filterChannels()">
     </div>
-    
-    <div id="player-container">
-        <div id="current-channel"></div>
-        <div id="jwplayer"></div>
-    </div>
 
     <div class="channel-container" id="channel-list"></div>
 
     <script>
-        const m3uUrl = "https://kailivetv.vercel.app/sliv.m3u"; // Check if this URL is correct
+        const m3uUrl = "https://kailivetv.vercel.app/sliv.m3u";
         const channelList = document.getElementById("channel-list");
-        const playerContainer = document.getElementById("player-container");
-        const currentChannelText = document.getElementById("current-channel");
-        let jwplayerInstance = null;
         let channels = [];
 
         async function fetchM3U() {
@@ -147,11 +121,9 @@
                     currentChannel.name = line.split(",")[1]?.trim() || "Unknown Channel";
                 } else if (line.startsWith("http")) {
                     currentChannel.url = line;
-
                     if (currentChannel.name && currentChannel.url) {
                         channels.push(currentChannel);
                     }
-
                     currentChannel = {};
                 }
             });
@@ -171,44 +143,11 @@
                 `;
 
                 card.addEventListener("click", () => {
-                    playChannel(channel.name, channel.url);
+                    window.open(`player.html?channel=${encodeURIComponent(channel.name)}&url=${encodeURIComponent(channel.url)}`, '_blank');
                 });
 
                 channelList.appendChild(card);
             });
-        }
-
-        function playChannel(channelName, streamUrl) {
-            console.log(`Attempting to play: ${channelName}`, streamUrl);
-
-            playerContainer.style.display = "block";
-            currentChannelText.innerHTML = `📺 You're Watching: <b>${channelName}</b>`;
-
-            fetch(streamUrl, { method: "HEAD" })
-                .then((res) => {
-                    if (!res.ok) throw new Error("Stream not available");
-                    
-                    const newPlaylist = [{
-                        file: streamUrl,
-                        title: channelName
-                    }];
-
-                    if (jwplayerInstance) {
-                        jwplayerInstance.load(newPlaylist);
-                        jwplayerInstance.play();
-                    } else {
-                        jwplayerInstance = jwplayer("jwplayer").setup({
-                            playlist: newPlaylist,
-                            width: "100%",
-                            aspectratio: "16:9",
-                            autostart: true
-                        });
-                    }
-                })
-                .catch((err) => {
-                    console.error("Error playing stream:", err);
-                    alert(`Error: Unable to load ${channelName}. Stream might be unavailable.`);
-                });
         }
 
         function filterChannels() {
@@ -219,7 +158,6 @@
             });
         }
 
-        setInterval(fetchM3U, 60000);
         fetchM3U();
     </script>
 
