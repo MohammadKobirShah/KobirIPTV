@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonyliv Player</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+        }
+        #player {
+            position: absolute;
+            width: 100% !important;
+            height: 100% !important;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="player"></div>
+    <script src="https://content.jwplatform.com/libraries/KB5zFt7A.js"></script>
+    <script>
+        function getQueryParams() {
+            const params = new URLSearchParams(window.location.search);
+            return {
+                channel: params.get("channel") || "Unknown Channel",
+                url: params.get("url")
+            };
+        }
+
+        function setupPlayer(videoUrl, channelName) {
+            if (!videoUrl) {
+                alert("Error: No valid stream URL provided.");
+                return;
+            }
+
+            const playerInstance = jwplayer("player").setup({
+                controls: true,
+                autoplay: true,
+                displaytitle: true,
+                displaydescription: true,
+                abouttext: "Video Player By DRMLIVE",
+                aboutlink: "https://t.me/+_RiCu2cz5TkxZmU1",
+                skin: { name: "netflix" },
+                playlist: [
+                    {
+                        title: channelName,
+                        description: "You're Watching",
+                        sources: [{ file: videoUrl, type: "hls", label: "1080p", default: true }]
+                    }
+                ]
+            });
+
+            playerInstance.on("error", () => {
+                alert("Stream failed to load. Please try another channel.");
+            });
+        }
+
+        const { url, channel } = getQueryParams();
+        setupPlayer(url, channel);
+    </script>
+
+</body>
+</html>
