@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content=
+  "width=device-width,initial-scale=1">
+  <title>Drmlive</title>
+  <link rel="shortcut icon" href="https://drmlive.au/drmlive.png">
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            padding: 10px;
+            background-color: #000;
+            color: #fff;
+        }
+        .file-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            padding: 10px;
+        }
+        .directory-item, .file-item {
+            margin: 10px;
+            text-align: center;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform .3s ease, box-shadow .3s ease;
+            background-color: #1a1a1a;
+            padding: 10px;
+            width: calc(14.28% - 20px);
+            box-sizing: border-box;
+        }
+        .directory-item img, .file-item img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            transition: transform .3s ease;
+        }
+        .directory-item a, .file-item a {
+            text-decoration: none;
+            color: #00bfff;
+            font-weight: 700;
+            display: block;
+            margin-top: 5px;
+            transition: color .3s ease;
+        }
+        .directory-item:hover, .file-item:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 10px rgba(255, 255, 255, .3);
+        }
+        .directory-item img:hover, .file-item img:hover {
+            transform: scale(1.1);
+        }
+        .directory-item a:hover, .file-item a:hover {
+            color: #fff;
+        }
+        h1 {
+            text-align: center;
+            color: #00bfff;
+            margin-bottom: 20px;
+        }
+        .telegram-toggle {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background-color: #0088cc;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .telegram-toggle:hover {
+            background-color: #006699;
+        }
+        @media (max-width: 1024px) {
+            .directory-item, .file-item {
+                width: calc(25% - 20px);
+            }
+        }
+        @media (max-width: 768px) {
+            .directory-item, .file-item {
+                width: calc(33.333% - 20px);
+            }
+        }
+        @media (max-width: 480px) {
+            .directory-item, .file-item {
+                width: calc(50% - 20px);
+                margin: 5px;
+                padding: 5px;
+            }
+            .telegram-toggle {
+                padding: 5px 10px;
+                font-size: 12px;
+            }
+            h1 {
+                font-size: 24px;
+                margin-bottom: 10px;
+            }
+        }
+  </style><!-- Disable DevTools -->
+
+  <script disable-devtool-auto="" src=
+  'https://cdn.jsdelivr.net/npm/disable-devtool@latest' type=
+  "cfc16e6ab3dd452e622e9936-text/javascript"></script>
+  <script async src="https://telegram.org/js/telegram-widget.js?22"
+  data-telegram-login="Drmlive_Bot" data-size="large" data-onauth=
+  "onTelegramAuth(user)" data-request-access="write" type=
+  "cfc16e6ab3dd452e622e9936-text/javascript"></script>
+  <script type="cfc16e6ab3dd452e622e9936-text/javascript">
+        function onTelegramAuth(user) {
+            alert('Logged in as ' + user.first_name + ' ' + user.last_name + ' (' + user.id + (user.username ? ', @' + user.username : '') + ')');
+        }
+  </script>
+</head>
+<body>
+  <a href="https://t.me/officialdrmlive" class=
+  "telegram-toggle">Join Telegram</a>
+  <h1>Drmlive</h1>
+  <div class="file-container">
+    <div class='directory-item'>
+      <a href='https://drmlive.au/sliv/'><img src='Sliv.png' alt=
+      'Sonyliv'></a><a href='https://drmlive.au/sliv/'>Sonyliv</a>
+    </div>
+    <div class='directory-item'>
+      <a href='https://drmlive.au/zee5/'><img src='zee5.png' alt=
+      'Zee5'></a><a href='https://drmlive.au/zee5/'>Zee5</a>
+    </div>
+    <div class='directory-item'>
+      <a href='https://drmlive.au/tata/'><img src=
+      'tata-sky-logo.jpg' alt='TataPlay Web'></a><a href=
+      'https://drmlive.au/tata/'>TataPlay Web</a>
+    </div>
+    <div class='directory-item'>
+      <a href='https://drmlive.au/jiotv/'><img src='jiotv.ico' alt=
+      'JioTV Web'></a><a href='https://drmlive.au/jiotv/'>JioTV
+      Web</a>
+    </div>
+    <div class='directory-item'>
+      <a href='https://drmlive.au/yupptvpremium/'><img src=
+      'yupptv.jpg' alt='YuppTV Premium'></a><a href=
+      'https://drmlive.au/yupptvpremium/'>YuppTV Premium</a>
+    </div>
+    <div class='directory-item'>
+      <a href='https://drmlive.au/yupptv/'><img src='yupptv.jpg'
+      alt='YuppTV FTA'></a><a href=
+      'https://drmlive.au/yupptv/'>YuppTV FTA</a>
+    </div>
+    <div class='directory-item'>
+      <a href='https://drmlive.au/discoveryplus/'><img src=
+      'discoveryplus.png' alt='Discovery+'></a><a href=
+      'https://drmlive.au/discoveryplus/'>Discovery+</a>
+    </div>
+    <div class='directory-item'>
+      <a href='https://drmlive.au/fancode/'><img src='fancode.png'
+      alt='Fancode Live Events'></a><a href=
+      'https://drmlive.au/fancode/'>Fancode Live Events</a>
+    </div>
+    <div class='directory-item'>
+      <a href='https://drmlive.au/airtel/'><img src=
+      'airtelxtream.png' alt='Airtel Xtream Play'></a><a href=
+      'https://drmlive.au/airtel/'>Airtel Xtream Play</a>
+    </div>
+    <div class='directory-item'>
+      <a href='https://drmlive.au/DrmPlayer/'><img src='Player.png'
+      alt='Drm Player'></a><a href=
+      'https://drmlive.au/DrmPlayer/'>Drm Player</a>
+    </div>
+    <div class='directory-item'>
+      <a href='https://drmlive.au/jiocinema/'><img src=
+      'Jio-Cinema.png' alt='Jio Cinema'></a><a href=
+      'https://drmlive.au/jiocinema/'>Jio Cinema</a>
+    </div>
+    <div class='directory-item'>
+      <a href='https://drmlive.au/sports/'><img src='sports.jpg'
+      alt='Sports'></a><a href=
+      'https://drmlive.au/sports/'>Sports</a>
+    </div>
+    <div class='directory-item'>
+      <a href='https://drmlive.au/australia/'><img src=
+      'australia.png' alt='Australia Only'></a><a href=
+      'https://drmlive.au/australia/'>Australia Only</a>
+    </div>
+    <div class='directory-item'>
+      <a href='https://drmlive.au/info/'><img src='playlist.webp'
+      alt='Playlist Info'></a><a href=
+      'https://drmlive.au/info/'>Playlist Info</a>
+    </div>
+  </div>
+  <script src=
+  "/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js"
+  data-cf-settings="cfc16e6ab3dd452e622e9936-|49" defer></script>
+</body>
+</html>
