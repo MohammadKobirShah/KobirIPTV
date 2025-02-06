@@ -27,12 +27,11 @@
         function getQueryParams() {
             const params = new URLSearchParams(window.location.search);
             return {
-                channel: params.get("channel") || "Unknown Channel",
                 url: params.get("url")
             };
         }
 
-        function setupPlayer(videoUrl, channelName) {
+        function setupPlayer(videoUrl) {
             if (!videoUrl) {
                 alert("Error: No valid stream URL provided.");
                 return;
@@ -41,15 +40,13 @@
             const playerInstance = jwplayer("player").setup({
                 controls: true,
                 autoplay: true,
-                displaytitle: true,
-                displaydescription: true,
+                displaytitle: false,
+                displaydescription: false,
                 abouttext: "Video Player By DRMLIVE",
                 aboutlink: "https://t.me/+_RiCu2cz5TkxZmU1",
                 skin: { name: "netflix" },
                 playlist: [
                     {
-                        title: channelName,
-                        description: "You're Watching",
                         sources: [{ file: videoUrl, type: "hls", label: "1080p", default: true }]
                     }
                 ]
@@ -60,8 +57,8 @@
             });
         }
 
-        const { url, channel } = getQueryParams();
-        setupPlayer(url, channel);
+        const { url } = getQueryParams();
+        setupPlayer(url);
     </script>
 
 </body>
