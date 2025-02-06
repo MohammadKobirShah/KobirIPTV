@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content=
+  "width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <title>Sonyliv BY DRMLIVE</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com"
+  crossorigin="">
+  <link href=
+  "https://fonts.googleapis.com/css2?family=Gloock&amp;display=swap"
+  rel="stylesheet">
+  <link href=
+  "https://fonts.googleapis.com/css2?family=Fjalla+One&amp;display=swap"
+  rel="stylesheet">
+  <link rel="shortcut icon" href="https://drmlive.in/sliv.png"
+  type="image/x-icon">
+  <link rel="icon" href="https://drmlive.in/sliv.png" type=
+  "image/x-icon">
+  <link rel="stylesheet" href=
+  "https://ipl-2023-schedule.pages.dev/jtv.css">
+  <link rel="stylesheet" href=
+  "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+
+  <style>
+        @import url(https://fonts.googleapis.com/css2?family=Montserrat&display=swap);
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f1f1f1;
+            color: #333;
+        }
+        .header-container {
+            display: flex;
+            align-items: center;
+            font-family: Gloock, serif;
+            font-weight: 700;
+            font-size: 28px;
+            color: #333;
+            text-align: left;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            margin-bottom: 20px;
+            margin-top: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, .3);
+            background-color: #f8f8f8;
+            padding: 7px 20px;
+            border-radius: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+        }
+        .toggle-wrapper {
+            margin-left: auto;
+            display: flex;
+            align-items: center;
+        }
+        .file-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            padding: 10px;
+        }
+        .directory-item, .file-item {
+            margin: 10px;
+            text-align: center;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform .3s ease, box-shadow .3s ease;
+            background-color: #fff;
+            padding: 10px;
+        }
+        .directory-item img, .file-item img {
+            max-width: 150px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            transition: transform .3s ease;
+        }
+        .directory-item a, .file-item a {
+            text-decoration: none;
+            color: #00bfff;
+            font-weight: 700;
+            display: block;
+            margin-top: 5px;
+            transition: color .3s ease;
+        }
+        .directory-item:hover, .file-item:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+        }
+        .directory-item img:hover, .file-item img:hover {
+            transform: scale(1.1);
+        }
+        .directory-item a:hover, .file-item a:hover {
+            color: #007bff;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .group-filter {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .group-filter select, .search-bar input {
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            background-color: #fff;
+            color: #333;
+        }
+        .search-bar {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .dark-mode {
+            background-color: #000;
+            color: #fff;
+        }
+        .dark-mode .header-container {
+            background-color: #111;
+            color: #fff;
+        }
+        .dark-mode .directory-item {
+            background-color: #222;
+            color: #fff;
+        }
+        .dark-mode .directory-item a {
+            color: #00bfff;
+        }
+        .dark-mode .directory-item a:hover {
+            color: #fff;
+        }
+        .dark-mode .group-filter select, .dark-mode .search-bar input {
+            background-color: #333;
+            color: #fff;
+            border: 1px solid #555;
+        }
+  </style>
+  <script src=
+  "https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+  type="65c466d297685a421f73e50a-text/javascript"></script>
+</head>
+<body>
+  <div class="header-container">
+    <h1 id="title">Sonyliv BY DRMLIVE</h1>
+    <div class="toggle-wrapper">
+      <input type="checkbox" class="checkbox" id="checkbox">
+      <label for="checkbox" class="checkbox-label"> </label>
+    </div>
+  </div>
+  <div class="group-filter">
+    <label for="group-select">Select Channel Group:</label>
+    <select id="group-select" onchange=
+    "if (!window.__cfRLUnblockHandlers) return false; filterChannels()"
+    data-cf-modified-65c466d297685a421f73e50a-="">
+      <option value="all">
+        All
+      </option>
+      <option value='Entertainment'>
+        Entertainment
+      </option>
+      <option value='Kids'>
+        Kids
+      </option>
+      <option value='Movies'>
+        Movies
+      </option>
+      <option value='Infotainment'>
+        Infotainment
+      </option>
+    </select>
+  </div>
+  <div class="search-bar">
+    <input type="text" id="search-input" placeholder=
+    "Search Channels" onkeyup=
+    "if (!window.__cfRLUnblockHandlers) return false; searchChannels()"
+    data-cf-modified-65c466d297685a421f73e50a-="">
+  </div>
+  <div class="file-container" id="channels-container">
+    <div class='directory-item' data-group='Entertainment'
+    data-name='Sony HD (SET HD)'>
+      <a href='play.php?id=sony-hd'><img src=
+      'http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_HD.png'
+      alt='Sony HD (SET HD)' loading='lazy'></a><a href=
+      'play.php?id=sony-hd'>Sony HD (SET HD)</a>
+    </div>
+    <div class='directory-item' data-group='Entertainment'
+    data-name='Sony SAB HD'>
+      <a href='play.php?id=sony-sab-hd'><img src=
+      'http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_SAB_HD.png'
+      alt='Sony SAB HD' loading='lazy'></a><a href=
+      'play.php?id=sony-sab-hd'>Sony SAB HD</a>
+    </div>
+    <div class='directory-item' data-group='Entertainment'
+    data-name='Sony Marathi'>
+      <a href='play.php?id=sony-marathi'><img src=
+      'http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Marathi_SD.png'
+      alt='Sony Marathi' loading='lazy'></a><a href=
+      'play.php?id=sony-marathi'>Sony Marathi</a>
+    </div>
+    <div class='directory-item' data-group='Entertainment'
+    data-name='Sony Pal'>
+      <a href='play.php?id=sony-pal'><img src=
+      'http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Pal.png'
+      alt='Sony Pal' loading='lazy'></a><a href=
+      'play.php?id=sony-pal'>Sony Pal</a>
+    </div>
+    <div class='directory-item' data-group='Entertainment'
+    data-name='Sony Aath'>
+      <a href='play.php?id=sony-aath'><img src=
+      'http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_aath.png'
+      alt='Sony Aath' loading='lazy'></a><a href=
+      'play.php?id=sony-aath'>Sony Aath</a>
+    </div>
+    <div class='directory-item' data-group='Kids' data-name=
+    'Sony Yay'>
+      <a href='play.php?id=sony-yay'><img src=
+      'http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Yay_Hindi.png'
+      alt='Sony Yay' loading='lazy'></a><a href=
+      'play.php?id=sony-yay'>Sony Yay</a>
+    </div>
+    <div class='directory-item' data-group='Movies' data-name=
+    'Sony MAX HD'>
+      <a href='play.php?id=sony-max-hd'><img src=
+      'http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Max_HD.png'
+      alt='Sony MAX HD' loading='lazy'></a><a href=
+      'play.php?id=sony-max-hd'>Sony MAX HD</a>
+    </div>
+    <div class='directory-item' data-group='Movies' data-name=
+    'Sony MAX'>
+      <a href='play.php?id=sony-max'><img src=
+      'http://jiotv.catchup.cdn.jio.com/dare_images/images/SET_MAX.png'
+      alt='Sony MAX' loading='lazy'></a><a href=
+      'play.php?id=sony-max'>Sony MAX</a>
+    </div>
+    <div class='directory-item' data-group='Movies' data-name=
+    'Sony WAH'>
+      <a href='play.php?id=sony-wah'><img src=
+      'http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Wah.png'
+      alt='Sony WAH' loading='lazy'></a><a href=
+      'play.php?id=sony-wah'>Sony WAH</a>
+    </div>
+    <div class='directory-item' data-group='Movies' data-name=
+    'Sony MAX 2'>
+      <a href='play.php?id=sony-max-2'><img src=
+      'http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_MAX2.png'
+      alt='Sony MAX 2' loading='lazy'></a><a href=
+      'play.php?id=sony-max-2'>Sony MAX 2</a>
+    </div>
+    <div class='directory-item' data-group='Movies' data-name=
+    'Sony PIX HD'>
+      <a href='play.php?id=sony-pix-hd'><img src=
+      'http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Pix_HD.png'
+      alt='Sony PIX HD' loading='lazy'></a><a href=
+      'play.php?id=sony-pix-hd'>Sony PIX HD</a>
+    </div>
+    <div class='directory-item' data-group='Infotainment'
+    data-name='Sony BBC Earth HD'>
+      <a href='play.php?id=sony-bbc-earth-hd'><img src=
+      'http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_BBC_Earth_HD.png'
+      alt='Sony BBC Earth HD' loading='lazy'></a><a href=
+      'play.php?id=sony-bbc-earth-hd'>Sony BBC Earth HD</a>
+    </div>
+    <div class='directory-item' data-group='Entertainment'
+    data-name='Sony KAL'>
+      <a href='play.php?id=sony-kal'><img src=
+      'https://i.postimg.cc/ZqnmcXdx/Sony-KAL.png' alt='Sony KAL'
+      loading='lazy'></a><a href='play.php?id=sony-kal'>Sony
+      KAL</a>
+    </div>
+  </div>
+  <script type="65c466d297685a421f73e50a-text/javascript">
+        function filterChannels() {
+            var selectedGroup = document.getElementById('group-select').value;
+            var channels = document.querySelectorAll('.directory-item');
+            
+            channels.forEach(function(channel) {
+                if (selectedGroup === 'all' || channel.getAttribute('data-group') === selectedGroup) {
+                    channel.style.display = 'block';
+                } else {
+                    channel.style.display = 'none';
+                }
+            });
+        }
+
+        function searchChannels() {
+            var input = document.getElementById('search-input').value.toLowerCase();
+            var channels = document.querySelectorAll('.directory-item');
+            
+            channels.forEach(function(channel) {
+                var name = channel.getAttribute('data-name').toLowerCase();
+                if (name.includes(input)) {
+                    channel.style.display = 'block';
+                } else {
+                    channel.style.display = 'none';
+                }
+            });
+        }
+
+        const checkbox = document.getElementById("checkbox");
+        checkbox.addEventListener("change", () => {
+            document.body.classList.toggle("dark-mode");
+        });
+  </script> 
+  <script src=
+  "/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js"
+  data-cf-settings="65c466d297685a421f73e50a-|49" defer></script>
+</body>
+</html>
