@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live TV Player</title>
+    <script src="https://cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.min.js"></script>
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+    <div class="player-container">
+        <div id="player"></div>
+    </div>
+
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const channelUrl = urlParams.get('url');
+
+        if (channelUrl) {
+            var player = new Clappr.Player({
+                source: channelUrl,
+                parentId: "#player",
+                width: "100%",
+                height: "100%",
+                autoPlay: true,
+                mute: false
+            });
+        } else {
+            document.getElementById("player").innerHTML = "<p>No channel selected</p>";
+        }
+    </script>
+</body>
+</html>
