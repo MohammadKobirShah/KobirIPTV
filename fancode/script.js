@@ -1,4 +1,4 @@
-const M3U_URL = "https://example.com/your-m3u-file.m3u";  // Replace with your M3U link
+const M3U_URL = "https://raw.githubusercontent.com/byte-capsule/FanCode-Hls-Fetcher/refs/heads/main/Fancode_Live.m3u";  // Replace with your M3U link
 let channels = [];
 
 async function loadChannels() {
