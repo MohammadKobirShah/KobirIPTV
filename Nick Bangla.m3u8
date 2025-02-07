@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Nick Bangla" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images//Nick_Bangla.png" group-title="Kids",Nick Bangla
+#EXTINF:-1 Nick Bangla
 #EXTVLCOPT:http-referrer=https://tamilultratv.co.in/?key=thenayeemparvez
 #EXTVLCOPT:user-agent=Mozilla/5.0 (Linux; Android 14; SM-S911B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.6668.100 Mobile Safari/537.36
 https://tamilultratv.co.in/api/jiotv.m3u8?id=1341
