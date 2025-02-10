@@ -119,7 +119,10 @@ https://la.drmlive.au/tp/zee-tvpictureshd.m3u8
 #EXTINF:-1 tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-11970-j9luk5ag-v1/imageContent-11970-j9luk5ag-m1.png" group-title="Nayeem's Zee5",ZEE Bangla HD
 https://la.drmlive.au/tp/zee-zeebangla.m3u8
 https://fifabd.xyz/STAR7dd/RANAPK/play.m3u8?id=51249
-#EXTINF:-1 group-title="BDIX TV By CRICFy" tvg-logo="https://pb.ihub.live/api/files/8x3xueuva58ilpm/r4a4ewvlkbxk05c/colors_bangla_WqJp82fuF7.jpg", Colors Bangla HD http://30.30.30.30:8088/304/index.m3u8 
+#EXTINF:-1 group-title="BDIX TV By CRICFy" tvg-logo="https://pb.ihub.live/api/files/8x3xueuva58ilpm/r4a4ewvlkbxk05c/colors_bangla_WqJp82fuF7.jpg", Colors Bangla HD
+#EXTVLCOPT:http-referrer=https://moonkerala.xyz/jcinema/stream.m3u8?id=3774158
+https://moonkerala.xyz/jcinema/stream.m3u8?id=3774158
+
 #EXTINF:-1 tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-11915-j9l5clzs-v1/imageContent-11915-j9l5clzs-m1.png" group-title="Nayeem's Zee5",ZEE Cinema HD
 https://la.drmlive.au/tp/zee-zeecinemahd.m3u8
 #EXTINF:-1 tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-117-j5fl7440-v1/imageContent-117-j5fl7440-m1.png" group-title="Nayeem's Zee5",& tv HD
