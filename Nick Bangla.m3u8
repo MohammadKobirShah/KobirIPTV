@@ -1,3 +1,8 @@
+#EXTM3U
+#EXT-X-VERSION:3
+##The Playlist Modified By S M Kobir
+
+
 # variants
 #EXT-X-STREAM-INF:BANDWIDTH=212000,AVERAGE-BANDWIDTH=193000,CODECS="mp4a.40.2,avc1.64000D",RESOLUTION=426x240,FRAME-RATE=25,AUDIO="audio-aacl-33",CLOSED-CAPTIONS=NONE
 https://iamranapk-com-wcc9.spidy.online/VOT/play.php?tid=Nick_voot_MOB/output03/hdntl=exp=1739350032~acl=%2f*~id=16ce1d7a-0632-43eb-a306-3ce7db0b7403~data=hdntl~hmac=0b5e5f6a3f70b73309e839973241f89e1ea57c7acff9a3708e467912dd3f3078/Nick_voot_MOB-audio_33637_eng=33600-video=148000.m3u8
