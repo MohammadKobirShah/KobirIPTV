@@ -1,4 +1,13 @@
-#EXTINF:-1,Nick Bangla
-#EXTVLCOPT:http-referrer=https://tamilultratv.co.in/?key=thenayeemparvez
-#EXTVLCOPT:user-agent=Mozilla/5.0 (Linux; Android 14; SM-S911B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.6668.100 Mobile Safari/537.36
-https://tamilultratv.co.in/api/jiotv.m3u8?id=1341
+# variants
+#EXT-X-STREAM-INF:BANDWIDTH=212000,AVERAGE-BANDWIDTH=193000,CODECS="mp4a.40.2,avc1.64000D",RESOLUTION=426x240,FRAME-RATE=25,AUDIO="audio-aacl-33",CLOSED-CAPTIONS=NONE
+https://iamranapk-com-wcc9.spidy.online/VOT/play.php?tid=Nick_voot_MOB/output03/hdntl=exp=1739350032~acl=%2f*~id=16ce1d7a-0632-43eb-a306-3ce7db0b7403~data=hdntl~hmac=0b5e5f6a3f70b73309e839973241f89e1ea57c7acff9a3708e467912dd3f3078/Nick_voot_MOB-audio_33637_eng=33600-video=148000.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=347000,AVERAGE-BANDWIDTH=316000,CODECS="mp4a.40.2,avc1.640015",RESOLUTION=512x288,FRAME-RATE=25,AUDIO="audio-aacl-98",CLOSED-CAPTIONS=NONE
+https://iamranapk-com-wcc9.spidy.online/VOT/play.php?tid=Nick_voot_MOB/output03/hdntl=exp=1739350032~acl=%2f*~id=16ce1d7a-0632-43eb-a306-3ce7db0b7403~data=hdntl~hmac=0b5e5f6a3f70b73309e839973241f89e1ea57c7acff9a3708e467912dd3f3078/Nick_voot_MOB-audio_98841_ben=98800-video=198800.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=650000,AVERAGE-BANDWIDTH=591000,CODECS="mp4a.40.2,avc1.640015",RESOLUTION=512x288,FRAME-RATE=25,AUDIO="audio-aacl-98",CLOSED-CAPTIONS=NONE
+https://iamranapk-com-wcc9.spidy.online/VOT/play.php?tid=Nick_voot_MOB/output03/hdntl=exp=1739350032~acl=%2f*~id=16ce1d7a-0632-43eb-a306-3ce7db0b7403~data=hdntl~hmac=0b5e5f6a3f70b73309e839973241f89e1ea57c7acff9a3708e467912dd3f3078/Nick_voot_MOB-audio_98841_ben=98800-video=458400.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=931000,AVERAGE-BANDWIDTH=847000,CODECS="mp4a.40.2,avc1.64001E",RESOLUTION=768x432,FRAME-RATE=25,AUDIO="audio-aacl-98",CLOSED-CAPTIONS=NONE
+https://iamranapk-com-wcc9.spidy.online/VOT/play.php?tid=Nick_voot_MOB/output03/hdntl=exp=1739350032~acl=%2f*~id=16ce1d7a-0632-43eb-a306-3ce7db0b7403~data=hdntl~hmac=0b5e5f6a3f70b73309e839973241f89e1ea57c7acff9a3708e467912dd3f3078/Nick_voot_MOB-audio_98841_ben=98800-video=699600.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=1122000,AVERAGE-BANDWIDTH=1020000,CODECS="mp4a.40.2,avc1.64001E",RESOLUTION=1024x576,FRAME-RATE=25,AUDIO="audio-aacl-98",CLOSED-CAPTIONS=NONE
+https://iamranapk-com-wcc9.spidy.online/VOT/play.php?tid=Nick_voot_MOB/output03/hdntl=exp=1739350032~acl=%2f*~id=16ce1d7a-0632-43eb-a306-3ce7db0b7403~data=hdntl~hmac=0b5e5f6a3f70b73309e839973241f89e1ea57c7acff9a3708e467912dd3f3078/Nick_voot_MOB-audio_98841_ben=98800-video=863200.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=2075000,AVERAGE-BANDWIDTH=1886000,CODECS="mp4a.40.2,avc1.64001E",RESOLUTION=1024x576,FRAME-RATE=25,AUDIO="audio-aacl-98",CLOSED-CAPTIONS=NONE
+https://iamranapk-com-wcc9.spidy.online/VOT/play.php?tid=Nick_voot_MOB/output03/hdntl=exp=1739350032~acl=%2f*~id=16ce1d7a-0632-43eb-a306-3ce7db0b7403~data=hdntl~hmac=0b5e5f6a3f70b73309e839973241f89e1ea57c7acff9a3708e467912dd3f3078/Nick_voot_MOB-audio_98841_ben=98800-video=1680400.m3u8
