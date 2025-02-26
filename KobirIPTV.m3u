@@ -15,7 +15,7 @@ https://mhdtvstream.com/live.php?id=1345
 #EXTINF:-1 tvg-id="Sony.yay.in" tvg-name="Sony Yay Bangla" tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-132-j5fpedbs-v4/imageContent-132-j5fpedbs-m6.png" group-title="Kids", Sony Yay Bangla
 https://fifabd.site/TOFx25/RANAPK/play.m3u8?id=sonyyay
 
-#EXTINF:-1 tvg-id=" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq_OoMGcAbEnLiH_eV-UBYVF7EOL5uHcfQmQ&usqp=CAU" group-title="Kids", Cartoon Network 
+#EXTINF:-1 tvg-id="CARTOON.NETWORK.in" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq_OoMGcAbEnLiH_eV-UBYVF7EOL5uHcfQmQ&usqp=CAU" group-title="Kids", Cartoon Network 
 https://iptvcable.netlify.app/Altogether-007/Cartoon/CartoonNetworkhin.m3u8
 #EXTINF:-1 tvg-id="RANAPK33" tvg-name="Cartoon Network HD" tvg-type="RANAPKX73" group-title="Kids" tvg-logo="https://images.toffeelive.com/images/program/26942/logo/240x240/mobile_logo_443429001678950505.png", Cartoon Network HD
 https://fifabd.site/TOFx25/RANAPK/play.m3u8?id=cartoon_network_hd
@@ -28,9 +28,8 @@ https://fifabd.site/OPLLX3/play.m3u8?id=245904
 #EXTINF:-1 tvg-id=" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_soLdr6it_9B9IqBCb3Waa6eEpYOeiP2hng&s" group-title="Kids Streamz by Nayeem", Kids TV India
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/kids-tv-india-nursery-rhymes-and-baby-songs/master.m3u8?token=thenayeemparvez
 
-#EXTINF:-1 tvg-id=" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_zknae6Nq0rVK2NY-FnEo8PusqSDTbx0p-g&s" group-title="Kids Streamz by Nayeem", Gubbare
+#EXTINF:-1 tvg-id="Gubbare.in" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_zknae6Nq0rVK2NY-FnEo8PusqSDTbx0p-g&s" group-title="Kids Streamz by Nayeem", Gubbare
 https://epiconvh.akamaized.net/live/gubbare/master.m3u8
-
 
 
 #EXTINF:-1 tvg-id="POGO.in" tvg-name="Pogo Hindi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Pogo_Hindi.png" tvg-language="Hindi" tvg-type="Kids" group-title="Kids", Pogo Hindi  
@@ -45,7 +44,7 @@ https://mhdtvstream.com/live.php?id=559
 https://mhdtvstream.com/live.php?id=554  
 
 
-#EXTINF:-1 tvg-id=" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1719833976219.png" group-title="Documentry",Animal Planet
+#EXTINF:-1 tvg-id="ANIMAL.PLANET.in" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1719833976219.png" group-title="Documentry",Animal Planet
 https://neeplay.com/delta/discovery/api/Animal_Planettv_Hindi.m3u8
 
 #EXTINF:-1 tvg-id="DISCOVERY.CHANNEL.in" tvg-name="Discovery Bengali" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Discovery_Channel_Bengali.png" tvg-language="Bengali" tvg-type="Infotainment" group-title="Infotainment", Discovery Bengali  
