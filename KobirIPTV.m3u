@@ -42,11 +42,14 @@ https://iptvcable.netlify.app/Altogether-007/Cartoon/POGO.m3u8
 https://freeott.site/discovery/Discovery_Kids.m3u8
 #EXTINF:-1 tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1719833976219.png" group-title="Documentry",Animal Planet
 https://neeplay.com/delta/discovery/api/Animal_Planettv_Hindi.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/ESeGnT2.jpg" group-title="Documentry",Discovery HD
-https://raw.githubusercontent.com/subirkumarpaul/My-iptv/main/Discovery.m3u8
+
+#EXTINF:-1 tvg-id="573" tvg-name="Discovery Bengali" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Discovery_Channel_Bengali.png" tvg-language="Bengali" tvg-type="Infotainment" group-title="Infotainment", Discovery Bengali  
+#EXTVLCOPT:http-referrer=https://mhdtvstream.com/  
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; SM-S911B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.6668.100 Mobile Safari/537.36  
+https://mhdtvstream.com/live.php?id=573  
+
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://bdiptv.stream/uploads/tv_image/sm/nat-geo-wild.png" group-title="Documentry",National Geographic
-https://fifabd.xyz/KIDxRANAPKs/play.m3u8?id=245967
-http://30.30.30.30:8088/802/index.m3u8
+https://fifabd.site/OPLLX3/play.m3u8?id=245967
 
 #EXTINF:-1 tvg-id="BLOODY_SWEET" tvg-name="Mastiii - India's No.1 Music and Youth Channel" tvg-type="LIVE" tvg-genre="Music,Bollywood,Music Video,Asian" group-title="Featured" tvg-logo="https://a.jsrdn.com/hls/22973/mastiii/poster_20210706_165834.jpg",Mastiii - India's No.1 Music and Youth Channel
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/mastiii/master.m3u8
@@ -55,10 +58,10 @@ https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26
 #EXTINF:-1 tvg-id="BLOODY_SWEET" tvg-name="9X Jalwa" tvg-type="LIVE" tvg-genre="Music,Bollywood,Music Video,Asian" group-title="Music" tvg-logo="https://a.jsrdn.com/hls/23111/9x-jalwa/poster_20230328_212825.jpg",9X Jalwa
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/9x-jalwa/master.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/wcHcrGC/20240803-101812.png" group-title="KOLKATA", ENTEER TEN BANGLA 
-https://live-bangla.akamaized.net/liveabr/pub-iobanglakp3sff/live_720p/chunks.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/wcHcrGC/20240803-101812.png" group-title="KOLKATA", ENTEER 10 BANGLA 
+https://live-bangla.akamaized.net/liveabr/playlist.m3u8
 
-#EXTM3U
+
 #EXTINF:-1 tvg-id="Nayeem's JadooTV" tvg-name="Nayeem's JadooTV" tvg-logo="https://edge01.iptv.digijadoo.net/static/atn_bangla.png", ATN Bangla
 http://30.30.30.30:8088/202/index.m3u8
 #EXTINF:-1 tvg-id="Nayeem's JadooTV" tvg-name="Nayeem's JadooTV" tvg-logo="https://edge01.iptv.digijadoo.net/static/atn_news.png", ATN News
