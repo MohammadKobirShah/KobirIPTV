@@ -125,8 +125,7 @@ https://app24.jagobd.com.bd/live-orgin/somoyt000011226615544544.stream/playlist.
 #EXTINF:-1 tvg-id="Nayeem's JadooTV" tvg-name="Nayeem's JadooTV" tvg-logo="https://edge01.iptv.digijadoo.net/static/t_sports.png" group-title="Nayeem's JadooTV", T Sports HD
 https://github.com/Miraz6755/Iptv.m3u/raw/refs/heads/main/Iptv.m3u
 #EXTINF:-1 tvg-id="Nayeem's JadooTV" tvg-name="Nayeem's JadooTV" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/0f/Sangeet_Bangla_logo_with_slogan_2021.png" group-title="Nayeem's JadooTV", Sangeet Bangla 
-https://tvs1.aynaott.com/SangeetBangla/index.m3u8?hdnts=st=1734554561~exp=1734597761~acl=/byte-capsule/*~data=69.57.172.5-WEB~hmac=0979f3101bc88269e4292e51769f7237c52ea5a1b88e3fa4e8ec7a4a31977ae3
-http://30.30.30.30:8088/702/index.m3u8
+https://cdn-4.pishow.tv/live/1143/master.m3u8
 
 #EXTM3U
 #EXTINF:-1 tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-11173-j9hth720-v1/imageContent-11173-j9hth720-m1.png" group-title="Nayeem's Zee5",& Pictures HD
