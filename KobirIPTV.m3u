@@ -1,20 +1,19 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-11970-j9luk5ag-v1/imageContent-11970-j9luk5ag-m1.png" group-title="Nayeem's Zee5",ZEE Bangla HD
+#EXTINF:-1 tvg-id="Zee.Bangla.HD.in" tvg-name="Zee Bangla HD" tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-11970-j9luk5ag-v1/imageContent-11970-j9luk5ag-m1.png" group-title="Zee5",ZEE Bangla HD
 https://fifabd.site/TOFx25/RANAPK/play.m3u8?id=zee_bangla
 
   
-#EXTINF:-1 tvg-id="1341" tvg-name="Nick Bangla" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Nick_Bangla.png" tvg-language="Bengali" tvg-type="Kids" group-title="Kids", Nick Bangla  
+#EXTINF:-1 tvg-id="NICK.in" tvg-name="Nick Bangla" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Nick_Bangla.png" tvg-language="Bengali" tvg-type="Kids" group-title="Kids", Nick Bangla  
 #EXTVLCOPT:http-referrer=https://mhdtvstream.com/  
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; SM-S911B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.6668.100 Mobile Safari/537.36  
 https://mhdtvstream.com/live.php?id=1341  
-
-#EXTM3U  
-#EXTINF:-1 tvg-id="1345" tvg-name="Sonic Bangla" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sonic_Bangla.png" tvg-language="Bengali" tvg-type="Kids" group-title="Kids", Sonic Bangla  
+  
+#EXTINF:-1 tvg-id="SONIC.NICKELODEON.in" tvg-name="Sonic Bangla" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sonic_Bangla.png" tvg-language="Bengali" tvg-type="Kids" group-title="Kids", Sonic Bangla  
 #EXTVLCOPT:http-referrer=https://mhdtvstream.com/  
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; SM-S911B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.6668.100 Mobile Safari/537.36  
 https://mhdtvstream.com/live.php?id=1345
 
-#EXTINF:-1 tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-132-j5fpedbs-v4/imageContent-132-j5fpedbs-m6.png" group-title="Kids", Sony Yay Bangla
+#EXTINF:-1 tvg-id="Sony.yay.in" tvg-name="Sony Yay Bangla" tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-132-j5fpedbs-v4/imageContent-132-j5fpedbs-m6.png" group-title="Kids", Sony Yay Bangla
 https://fifabd.site/TOFx25/RANAPK/play.m3u8?id=sonyyay
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq_OoMGcAbEnLiH_eV-UBYVF7EOL5uHcfQmQ&usqp=CAU" group-title="Kids", Cartoon Network 
@@ -35,13 +34,13 @@ https://epiconvh.akamaized.net/live/gubbare/master.m3u8
 
 
 
-#EXTINF:-1 tvg-id="559" tvg-name="Pogo Hindi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Pogo_Hindi.png" tvg-language="Hindi" tvg-type="Kids" group-title="Kids", Pogo Hindi  
+#EXTINF:-1 tvg-id="POGO.in" tvg-name="Pogo Hindi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Pogo_Hindi.png" tvg-language="Hindi" tvg-type="Kids" group-title="Kids", Pogo Hindi  
 #EXTVLCOPT:http-referrer=https://mhdtvstream.com/  
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; SM-S911B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.6668.100 Mobile Safari/537.36  
 https://mhdtvstream.com/live.php?id=559  
 
  
-#EXTINF:-1 tvg-id="554" tvg-name="Discovery Kids " tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Discovery_Kids_2.png" tvg-language="Hindi" tvg-type="Kids" group-title="Kids", Discovery Kids   
+#EXTINF:-1 tvg-id="DISCOVERY.KIDS.in" tvg-name="Discovery Kids " tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Discovery_Kids_2.png" tvg-language="Hindi" tvg-type="Kids" group-title="Kids", Discovery Kids   
 #EXTVLCOPT:http-referrer=https://mhdtvstream.com/  
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; SM-S911B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.6668.100 Mobile Safari/537.36  
 https://mhdtvstream.com/live.php?id=554  
@@ -50,19 +49,19 @@ https://mhdtvstream.com/live.php?id=554
 #EXTINF:-1 tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1719833976219.png" group-title="Documentry",Animal Planet
 https://neeplay.com/delta/discovery/api/Animal_Planettv_Hindi.m3u8
 
-#EXTINF:-1 tvg-id="573" tvg-name="Discovery Bengali" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Discovery_Channel_Bengali.png" tvg-language="Bengali" tvg-type="Infotainment" group-title="Infotainment", Discovery Bengali  
+#EXTINF:-1 tvg-id="DISCOVERY.CHANNEL.in" tvg-name="Discovery Bengali" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Discovery_Channel_Bengali.png" tvg-language="Bengali" tvg-type="Infotainment" group-title="Infotainment", Discovery Bengali  
 #EXTVLCOPT:http-referrer=https://mhdtvstream.com/  
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; SM-S911B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.6668.100 Mobile Safari/537.36  
 https://mhdtvstream.com/live.php?id=573  
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://bdiptv.stream/uploads/tv_image/sm/nat-geo-wild.png" group-title="Documentry",National Geographic
+#EXTINF:-1 tvg-id="NATIONAL.GEOGRAPHIC.HD.in" tvg-name="National Geographic Bangla" tvg-logo="https://bdiptv.stream/uploads/tv_image/sm/nat-geo-wild.png" group-title="Documentry",National Geographic
 https://fifabd.site/OPLLX3/play.m3u8?id=245967
 
-#EXTINF:-1 tvg-id="BLOODY_SWEET" tvg-name="Mastiii - India's No.1 Music and Youth Channel" tvg-type="LIVE" tvg-genre="Music,Bollywood,Music Video,Asian" group-title="Featured" tvg-logo="https://a.jsrdn.com/hls/22973/mastiii/poster_20210706_165834.jpg",Mastiii - India's No.1 Music and Youth Channel
+#EXTINF:-1 tvg-id="MASTII.in" tvg-name="Mastiii - India's No.1 Music and Youth Channel" tvg-type="LIVE" tvg-genre="Music,Bollywood,Music Video,Asian" group-title="Featured" tvg-logo="https://a.jsrdn.com/hls/22973/mastiii/poster_20210706_165834.jpg",Mastiii - India's No.1 Music and Youth Channel
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/mastiii/master.m3u8
-#EXTINF:-1 tvg-id="BLOODY_SWEET" tvg-name="9XM" tvg-type="LIVE" tvg-genre="Music,Bollywood,Music Video,Asian" group-title="Featured" tvg-logo="https://a.jsrdn.com/hls/23111/9xm/poster_20240521_223853.jpg",9XM
+#EXTINF:-1 tvg-id="9XM.in" tvg-name="9XM" tvg-type="LIVE" tvg-genre="Music,Bollywood,Music Video,Asian" group-title="Featured" tvg-logo="https://a.jsrdn.com/hls/23111/9xm/poster_20240521_223853.jpg",9XM
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/9xm/master.m3u8
-#EXTINF:-1 tvg-id="BLOODY_SWEET" tvg-name="9X Jalwa" tvg-type="LIVE" tvg-genre="Music,Bollywood,Music Video,Asian" group-title="Music" tvg-logo="https://a.jsrdn.com/hls/23111/9x-jalwa/poster_20230328_212825.jpg",9X Jalwa
+#EXTINF:-1 tvg-id="9X.Jalwa.in" tvg-name="9X Jalwa" tvg-type="LIVE" tvg-genre="Music,Bollywood,Music Video,Asian" group-title="Music" tvg-logo="https://a.jsrdn.com/hls/23111/9x-jalwa/poster_20230328_212825.jpg",9X Jalwa
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/9x-jalwa/master.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/wcHcrGC/20240803-101812.png" group-title="KOLKATA", ENTEER 10 BANGLA 
@@ -131,14 +130,14 @@ https://app24.jagobd.com.bd/live-orgin/satvoff5666.stream/playlist.m3u8
 https://app24.jagobd.com.bd/live-orgin/somoyt000011226615544544.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="Nayeem's JadooTV" tvg-name="Nayeem's JadooTV" tvg-logo="https://edge01.iptv.digijadoo.net/static/t_sports.png" group-title="Nayeem's JadooTV", T Sports HD
 https://github.com/Miraz6755/Iptv.m3u/raw/refs/heads/main/Iptv.m3u
-#EXTINF:-1 tvg-id="Nayeem's JadooTV" tvg-name="Nayeem's JadooTV" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/0f/Sangeet_Bangla_logo_with_slogan_2021.png" group-title="Nayeem's JadooTV", Sangeet Bangla 
+#EXTINF:-1 tvg-id="SANGEET.BANGLA.in" tvg-name="Sangeet Bangla" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/0f/Sangeet_Bangla_logo_with_slogan_2021.png" group-title="Music", Sangeet Bangla 
 https://cdn-4.pishow.tv/live/1143/master.m3u8
 
 #EXTM3U
 #EXTINF:-1 tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-11173-j9hth720-v1/imageContent-11173-j9hth720-m1.png" group-title="Nayeem's Zee5",& Pictures HD
 https://la.drmlive.au/tp/zee-tvpictureshd.m3u8
 
-#EXTINF:-1 group-title="BDIX TV By CRICFy" tvg-logo="https://pb.ihub.live/api/files/8x3xueuva58ilpm/r4a4ewvlkbxk05c/colors_bangla_WqJp82fuF7.jpg", Colors Bangla HD
+#EXTINF:-1 tvg-id="COLORS.BANGLA.HD.in" tvg-name="Colors Bangla HD" group-title="BDIX TV By CRICFy" tvg-logo="https://pb.ihub.live/api/files/8x3xueuva58ilpm/r4a4ewvlkbxk05c/colors_bangla_WqJp82fuF7.jpg", Colors Bangla HD
 #EXTVLCOPT:http-referrer=https://moonkerala.xyz/jcinema/stream.m3u8?id=3774158
 https://moonkerala.xyz/jcinema/stream.m3u8?id=3774158
 
