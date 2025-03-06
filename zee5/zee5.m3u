@@ -1,27 +1,48 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="" tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-11173-j9hth720-v1/imageContent-11173-j9hth720-m1.png" group-title="Nayeem's Zee5",& Pictures HD
-https://la.drmlive.au/tp/zee-tvpictureshd.m3u8
-
-#EXTINF:-1 tvg-id="COLORS.BANGLA.HD.in" tvg-name="Colors Bangla HD" group-title="BDIX TV By CRICFy" tvg-logo="https://pb.ihub.live/api/files/8x3xueuva58ilpm/r4a4ewvlkbxk05c/colors_bangla_WqJp82fuF7.jpg", Colors Bangla HD
-#EXTVLCOPT:http-referrer=https://moonkerala.xyz/jcinema/stream.m3u8?id=3774158
-https://moonkerala.xyz/jcinema/stream.m3u8?id=3774158
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-11915-j9l5clzs-v1/imageContent-11915-j9l5clzs-m1.png" group-title="Nayeem's Zee5",ZEE Cinema HD
-https://la.drmlive.au/tp/zee-zeecinemahd.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-117-j5fl7440-v1/imageContent-117-j5fl7440-m1.png" group-title="Nayeem's Zee5",& tv HD
- https://la.drmlive.au/tp/zee-tvhd_0.m3u8|
-#EXTINF:-1 tvg-id="" tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-11073-j95e7nyo-v1/imageContent-11073-j95e7nyo-m1.png" group-title="Nayeem's Zee5",Zee tv HD
-https://la.drmlive.au/tp/zee-zeetvhd.m3u8
-https://s1.thenayeemparvez.xyz/zeppy-xx/stream.m3u8?id=zee-zeekannada
-#EXTINF:-1 tvg-id="" tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-11009-j8xbk7js-v1/imageContent-11009-j8xbk7js-m1.png" group-title="Nayeem's Zee5",Zee Bangla Cinema
-https://fifabd.site/TOFx25/RANAPK/play.m3u8?id=zee_bangla_cinema
-#EXTINF:-1 tvg-id="" tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-12207-j9qlt5vk-v2/imageContent-12207-j9qlt5vk-m2.png" group-title="Nayeem's Zee5",Zee Sarthak
-https://s1.thenayeemparvez.xyz/zeppy-xx/stream.m3u8?id=zee-sarthaktv
-#EXTINF:-1 tvg-id="" tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-31233-jli1wlvc-v1/imageContent-31233-jli1wlvc-m1.png" group-title="Nayeem's Zee5",Zee Bollywood
-https://la.drmlive.au/tp/zee-zeeclassic.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-11993-j9luua9c-v1/imageContent-11993-j9luua9c-m1.png" group-title="Nayeem's Zee5",Zing
-https://la.drmlive.au/tp/zee-zing.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-11024-j8yix4g8-v1/imageContent-11024-j8yix4g8-m1.png" group-title="Nayeem's Zee5",Zee Action
-https://la.drmlive.au/tp/zee-zeeaction.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-11987-j9lura8g-v1/imageContent-11987-j9lura8g-m1.png" group-title="Nayeem's Zee5",Zee Talkies HD
-https://la.drmlive.au/tp/zee-zeetalkies.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_HD.png" group-title="Entertainment",SONY HD
+https://la.drmlive.au/tp/sliv-sony.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_SAB_HD.png" group-title="Entertainment",SONY SAB HD
+https://la.drmlive.au/tp/sliv-sab.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/ZqnmcXdx/Sony-KAL.png" group-title="Entertainment",SONY KAL
+https://spt-sonykal-1-us.lg.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Pal.png" group-title="Entertainment",SONY PAL
+https://la.drmlive.au/tp/sliv-pal.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Wah.png" group-title="Movie",SONY WAH
+https://la.drmlive.au/tp/sliv-wah.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/SET_MAX.png" group-title="Movie",SONY MAX
+https://la.drmlive.au/tp/sliv-max.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Max_HD.png" group-title="Movie",SONY MAX HD
+https://la.drmlive.au/tp/sliv-maxhd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_MAX2.png" group-title="Movie",SONY MAX2
+https://la.drmlive.au/tp/sliv-max2.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_1.png" group-title="Sports",SONY TEN 1  P LAY LI V TV
+https://la.drmlive.au/tp/sliv-ten1.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_2.png" group-title="Sports",SONY TEN 2
+https://la.drmlive.au/tp/sliv-ten2.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_3.png" group-title="Sports",SONY TEN 3 P LAY L I V TV
+https://la.drmlive.au/tp/sliv-ten3.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen4_SD_Logo_CLR.png" group-title="Sports",SONY TEN 4 
+https://la.drmlive.au/tp/sliv-ten4.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen5_SD_Logo_CLR.png" group-title="Sports",SONY TEN 5 
+https://la.drmlive.au/tp/sliv-ten5.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_HD.png" group-title="Sports",SONY TEN 1 HD
+https://la.drmlive.au/tp/sliv-ten1hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten2_HD.png" group-title="Sports",SONY TEN 2 HD
+https://la.drmlive.au/tp/sliv-ten2hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten3_HD.png" group-title="Sports",SONY TEN 3 HD
+https://la.drmlive.au/tp/sliv-ten3hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen4_HD_Logo_CLR.png" group-title="Sports",SONY TEN 4 HD
+https://zeslivstream.playlivtv.workers.dev/?id=sliv-ten4hd
+#EXTINF:-1 tvg-id="" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen5_HD_Logo_CLR.png" group-title="Sports",SONY TEN 5 HD
+https://la.drmlive.au/tp/sliv-ten5hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_BBC_Earth_HD.png" group-title="Documentary",SONY BBC EARTH
+https://la.drmlive.au/tp/sliv-bbc.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Yay_Hindi.png" group-title="Kids",SONY YAY
+https://la.drmlive.au/tp/sliv-yay.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Pix_HD.png" group-title="ENG Movies",SONY PIX HD
+https://la.drmlive.au/tp/sliv-pix.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Marathi_SD.png" group-title="Entertainment",SONY MARATHI
+https://la.drmlive.au/tp/sliv-marathi.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_aath.png" group-title="Entertainment",SONY AATH 
+https://la.drmlive.au/tp/sliv-aath.m3u8
+https://live.drmlive-02.workers.dev/sliv/aath.m3u8
