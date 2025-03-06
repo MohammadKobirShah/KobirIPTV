@@ -1,0 +1,193 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <title>Zee5 BY DRMLIVE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="../css2-1?family=Gloock&display=swap" rel="stylesheet">
+    <link href="../css2-2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="https://drmlive.in/zee5.png" type="image/x-icon">
+    <link rel="icon" href="https://drmlive.in/zee5.png" type="image/x-icon">
+    <link rel="stylesheet" href="../jtv.css">
+    <link rel="stylesheet" href="../ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <style>
+        @import url(../css2);
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f1f1f1;
+            color: #333;
+        }
+        .header-container {
+            display: flex;
+            align-items: center;
+            font-family: Gloock, serif;
+            font-weight: 700;
+            font-size: 28px;
+            color: #333;
+            text-align: left;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            margin-bottom: 20px;
+            margin-top: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, .3);
+            background-color: #f8f8f8;
+            padding: 7px 20px;
+            border-radius: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+        }
+        .toggle-wrapper {
+            margin-left: auto;
+            display: flex;
+            align-items: center;
+        }
+        .file-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            padding: 10px;
+        }
+        .directory-item, .file-item {
+            margin: 10px;
+            text-align: center;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform .3s ease, box-shadow .3s ease;
+            background-color: #fff;
+            padding: 10px;
+        }
+        .directory-item img, .file-item img {
+            max-width: 150px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            transition: transform .3s ease;
+        }
+        .directory-item a, .file-item a {
+            text-decoration: none;
+            color: #00bfff;
+            font-weight: 700;
+            display: block;
+            margin-top: 5px;
+            transition: color .3s ease;
+        }
+        .directory-item:hover, .file-item:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+        }
+        .directory-item img:hover, .file-item img:hover {
+            transform: scale(1.1);
+        }
+        .directory-item a:hover, .file-item a:hover {
+            color: #007bff;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .group-filter {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .group-filter select, .search-bar input {
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            background-color: #fff;
+            color: #333;
+        }
+        .search-bar {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .dark-mode {
+            background-color: #000;
+            color: #fff;
+        }
+        .dark-mode .header-container {
+            background-color: #111;
+            color: #fff;
+        }
+        .dark-mode .directory-item {
+            background-color: #222;
+            color: #fff;
+        }
+        .dark-mode .directory-item a {
+            color: #00bfff;
+        }
+        .dark-mode .directory-item a:hover {
+            color: #fff;
+        }
+        .dark-mode .group-filter select, .dark-mode .search-bar input {
+            background-color: #333;
+            color: #fff;
+            border: 1px solid #555;
+        }
+    </style>
+    <script src="../ajax/libs/jquery/3.6.0/jquery.min.js" type="7913987affcc2954cc89dd17-text/javascript"></script>
+</head>
+<body>
+    <div class="header-container">
+        <h1 id="title">Zee5 BY DRMLIVE</h1>
+        <div class="toggle-wrapper">
+            <input type="checkbox" class="checkbox" id="checkbox">
+            <label for="checkbox" class="checkbox-label">
+                <i class="fas fa-moon"></i>
+                <i class="fas fa-sun"></i>
+                <span class="ball"></span>
+            </label>
+        </div>
+    </div>
+    <div class="group-filter">
+        <label for="group-select">Select Channel Group:</label>
+        <select id="group-select" onchange="if (!window.__cfRLUnblockHandlers) return false; filterChannels()" data-cf-modified-7913987affcc2954cc89dd17-="">
+            <option value="all">All</option>
+            <option value='Movies'>Movies</option><option value='Entertainment'>Entertainment</option><option value='News'>News</option><option value='Music'>Music</option><option value='Business'>Business</option><option value='Lifestyle'>Lifestyle</option>        </select>
+    </div>
+    <div class="search-bar">
+        <input type="text" id="search-input" placeholder="Search Channels" onkeyup="if (!window.__cfRLUnblockHandlers) return false; searchChannels()" data-cf-modified-7913987affcc2954cc89dd17-="">
+    </div>
+    <div class="file-container" id="channels-container">
+        <div class='directory-item' data-group='Movies' data-name='Zee Talkies'><a href='play.php.html?id=153'><img src='../dare_images/images/Zee_Talkies.png' alt='Zee Talkies' loading='lazy'></a><a href='play.php.html?id=153'>Zee Talkies</a></div><div class='directory-item' data-group='Movies' data-name='Zee Cinema HD'><a href='play.php-1.html?id=165'><img src='../dare_images/images/Zee_Cinema_HD.png' alt='Zee Cinema HD' loading='lazy'></a><a href='play.php-1.html?id=165'>Zee Cinema HD</a></div><div class='directory-item' data-group='Entertainment' data-name='Zee TV HD'><a href='play.php-2.html?id=167'><img src='../dare_images/images/Zee_TV_HD.png' alt='Zee TV HD' loading='lazy'></a><a href='play.php-2.html?id=167'>Zee TV HD</a></div><div class='directory-item' data-group='Movies' data-name='And Pictures HD'><a href='play.php-3.html?id=185'><img src='../dare_images/images/And_Pictures_HD.png' alt='And Pictures HD' loading='lazy'></a><a href='play.php-3.html?id=185'>And Pictures HD</a></div><div class='directory-item' data-group='Movies' data-name='Zee Cinemalu'><a href='play.php-4.html?id=413'><img src='../dare_images/images/Zee_Cinemalu.png' alt='Zee Cinemalu' loading='lazy'></a><a href='play.php-4.html?id=413'>Zee Cinemalu</a></div><div class='directory-item' data-group='Entertainment' data-name='Zee Yuva'><a href='play.php-5.html?id=414'><img src='../dare_images/images/Zee_Yuva.png' alt='Zee Yuva' loading='lazy'></a><a href='play.php-5.html?id=414'>Zee Yuva</a></div><div class='directory-item' data-group='Movies' data-name='Zee Anmol Cinema'><a href='play.php-6.html?id=415'><img src='../dare_images/images/Zee_Anmol_Cinema.png' alt='Zee Anmol Cinema' loading='lazy'></a><a href='play.php-6.html?id=415'>Zee Anmol Cinema</a></div><div class='directory-item' data-group='News' data-name='Zee 24 Taas'><a href='play.php-7.html?id=442'><img src='../dare_images/images/Zee_24_Taas.png' alt='Zee 24 Taas' loading='lazy'></a><a href='play.php-7.html?id=442'>Zee 24 Taas</a></div><div class='directory-item' data-group='Entertainment' data-name='Zee Marathi'><a href='play.php-8.html?id=445'><img src='../dare_images/images/Zee_Marathi.png' alt='Zee Marathi' loading='lazy'></a><a href='play.php-8.html?id=445'>Zee Marathi</a></div><div class='directory-item' data-group='Movies' data-name='&Xplor HD'><a href='play.php-9.html?id=471'><img src='https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/XPOHD_Thumbnail-v1/XPOHD_Thumbnail.png' alt='&Xplor HD' loading='lazy'></a><a href='play.php-9.html?id=471'>&Xplor HD</a></div><div class='directory-item' data-group='Entertainment' data-name='And TV HD'><a href='play.php-10.html?id=472'><img src='../dare_images/images/And_TV_HD.png' alt='And TV HD' loading='lazy'></a><a href='play.php-10.html?id=472'>And TV HD</a></div><div class='directory-item' data-group='Entertainment' data-name='Zee Anmol'><a href='play.php-11.html?id=473'><img src='../dare_images/images/Zee_Anmol.png' alt='Zee Anmol' loading='lazy'></a><a href='play.php-11.html?id=473'>Zee Anmol</a></div><div class='directory-item' data-group='Movies' data-name='Zee Cinema'><a href='play.php-12.html?id=484'><img src='../dare_images/images/Zee_Cinema.png' alt='Zee Cinema' loading='lazy'></a><a href='play.php-12.html?id=484'>Zee Cinema</a></div><div class='directory-item' data-group='Movies' data-name='Zee Bollywood'><a href='play.php-13.html?id=487'><img src='../dare_images/images/Zee_Classic.png' alt='Zee Bollywood' loading='lazy'></a><a href='play.php-13.html?id=487'>Zee Bollywood</a></div><div class='directory-item' data-group='Movies' data-name='Zee Action'><a href='play.php-14.html?id=488'><img src='../dare_images/images/Zee_Action.png' alt='Zee Action' loading='lazy'></a><a href='play.php-14.html?id=488'>Zee Action</a></div><div class='directory-item' data-group='News' data-name='Zee News'><a href='play.php-15.html?id=504'><img src='../dare_images/images/Zee_News.png' alt='Zee News' loading='lazy'></a><a href='play.php-15.html?id=504'>Zee News</a></div><div class='directory-item' data-group='News' data-name='Chardikla Time TV'><a href='play.php-16.html?id=517'><img src='../dare_images/images/Chardikla_Time_TV.png' alt='Chardikla Time TV' loading='lazy'></a><a href='play.php-16.html?id=517'>Chardikla Time TV</a></div><div class='directory-item' data-group='News' data-name='Zee UP UK'><a href='play.php-17.html?id=572'><img src='../dare_images/images/Living_Foodz.png' alt='Zee UP UK' loading='lazy'></a><a href='play.php-17.html?id=572'>Zee UP UK</a></div><div class='directory-item' data-group='Music' data-name='Zing'><a href='play.php-18.html?id=585'><img src='../dare_images/images/Zing.png' alt='Zing' loading='lazy'></a><a href='play.php-18.html?id=585'>Zing</a></div><div class='directory-item' data-group='Entertainment' data-name='Zee Bangla'><a href='play.php-19.html?id=625'><img src='../dare_images/images/Zee_Bangla.png' alt='Zee Bangla' loading='lazy'></a><a href='play.php-19.html?id=625'>Zee Bangla</a></div><div class='directory-item' data-group='Entertainment' data-name='Zee Tamil'><a href='play.php-20.html?id=628'><img src='../dare_images/images/Zee_Tamil.png' alt='Zee Tamil' loading='lazy'></a><a href='play.php-20.html?id=628'>Zee Tamil</a></div><div class='directory-item' data-group='Entertainment' data-name='Zee Telugu'><a href='play.php-21.html?id=638'><img src='../dare_images/images/Zee_Telugu.png' alt='Zee Telugu' loading='lazy'></a><a href='play.php-21.html?id=638'>Zee Telugu</a></div><div class='directory-item' data-group='News' data-name='Zee Hindustan'><a href='play.php-22.html?id=652'><img src='../dare_images/images/Zee_SANGAM.png' alt='Zee Hindustan' loading='lazy'></a><a href='play.php-22.html?id=652'>Zee Hindustan</a></div><div class='directory-item' data-group='News' data-name='Zee Punjabi HP Haryana'><a href='play.php-23.html?id=654'><img src='../dare_images/images/Zee_Punjabi_HP_Haryana.png' alt='Zee Punjabi HP Haryana' loading='lazy'></a><a href='play.php-23.html?id=654'>Zee Punjabi HP Haryana</a></div><div class='directory-item' data-group='News' data-name='News18 Punjab Haryana'><a href='play.php-24.html?id=655'><img src='../dare_images/images/ETV_Haryana_and_HP_News.png' alt='News18 Punjab Haryana' loading='lazy'></a><a href='play.php-24.html?id=655'>News18 Punjab Haryana</a></div><div class='directory-item' data-group='Business' data-name='Zee Business'><a href='play.php-25.html?id=657'><img src='../dare_images/images/Zee_Business.png' alt='Zee Business' loading='lazy'></a><a href='play.php-25.html?id=657'>Zee Business</a></div><div class='directory-item' data-group='News' data-name='Zee Rajasthan'><a href='play.php-26.html?id=659'><img src='../dare_images/images/Zee_Rajasthan.png' alt='Zee Rajasthan' loading='lazy'></a><a href='play.php-26.html?id=659'>Zee Rajasthan</a></div><div class='directory-item' data-group='News' data-name='Zee Bihar Jharkhand'><a href='play.php-27.html?id=661'><img src='../dare_images/images/Zee_Purvaiya.png' alt='Zee Bihar Jharkhand' loading='lazy'></a><a href='play.php-27.html?id=661'>Zee Bihar Jharkhand</a></div><div class='directory-item' data-group='Movies' data-name='Zee Bangla Cinema'><a href='play.php-28.html?id=685'><img src='../dare_images/images/Zee_Bangla_Cinema.png' alt='Zee Bangla Cinema' loading='lazy'></a><a href='play.php-28.html?id=685'>Zee Bangla Cinema</a></div><div class='directory-item' data-group='Entertainment' data-name='Zee Kannada'><a href='play.php-29.html?id=689'><img src='../dare_images/images/Zee_Kannada.png' alt='Zee Kannada' loading='lazy'></a><a href='play.php-29.html?id=689'>Zee Kannada</a></div><div class='directory-item' data-group='Entertainment' data-name='Zee Sarthak'><a href='play.php-30.html?id=722'><img src='../dare_images/images/Sarthak_TV.png' alt='Zee Sarthak' loading='lazy'></a><a href='play.php-30.html?id=722'>Zee Sarthak</a></div><div class='directory-item' data-group='News' data-name='Zee Delhi NCR Haryana'><a href='play.php-31.html?id=724'><img src='../dare_images/images/Zee_Kalinga.png' alt='Zee Delhi NCR Haryana' loading='lazy'></a><a href='play.php-31.html?id=724'>Zee Delhi NCR Haryana</a></div><div class='directory-item' data-group='News' data-name='Zee Salaam'><a href='play.php-32.html?id=728'><img src='../dare_images/images/Zee_Salaam.png' alt='Zee Salaam' loading='lazy'></a><a href='play.php-32.html?id=728'>Zee Salaam</a></div><div class='directory-item' data-group='News' data-name='News India 24x7'><a href='play.php-33.html?id=850'><img src='../dare_images/images/News_India_24_X_7.png' alt='News India 24x7' loading='lazy'></a><a href='play.php-33.html?id=850'>News India 24x7</a></div><div class='directory-item' data-group='News' data-name='Zee 24 Kalak'><a href='play.php-34.html?id=929'><img src='../dare_images/images/Zee_24_Kalak.png' alt='Zee 24 Kalak' loading='lazy'></a><a href='play.php-34.html?id=929'>Zee 24 Kalak</a></div><div class='directory-item' data-group='Entertainment' data-name='Zee Cafe HD'><a href='play.php-35.html?id=1319'><img src='../dare_images/images/Zee_Cafe_HD.png' alt='Zee Cafe HD' loading='lazy'></a><a href='play.php-35.html?id=1319'>Zee Cafe HD</a></div><div class='directory-item' data-group='Movies' data-name='&Flix HD'><a href='play.php-36.html?id=1322'><img src='../dare_images/images/And_Flix_HD.png' alt='&Flix HD' loading='lazy'></a><a href='play.php-36.html?id=1322'>&Flix HD</a></div><div class='directory-item' data-group='Movies' data-name='And Prive HD'><a href='play.php-37.html?id=1349'><img src='../dare_images/images/And_Prive_HD.png' alt='And Prive HD' loading='lazy'></a><a href='play.php-37.html?id=1349'>And Prive HD</a></div><div class='directory-item' data-group='Entertainment' data-name='Zee TV'><a href='play.php-38.html?id=1351'><img src='../dare_images/images/Zee_TV.png' alt='Zee TV' loading='lazy'></a><a href='play.php-38.html?id=1351'>Zee TV</a></div><div class='directory-item' data-group='Entertainment' data-name='Zee Telugu HD'><a href='play.php-39.html?id=1354'><img src='../dare_images/images/Zee_Telugu_HD.png' alt='Zee Telugu HD' loading='lazy'></a><a href='play.php-39.html?id=1354'>Zee Telugu HD</a></div><div class='directory-item' data-group='Entertainment' data-name='Zee Tamil HD'><a href='play.php-40.html?id=1356'><img src='../dare_images/images/Zee_Tamil_HD.png' alt='Zee Tamil HD' loading='lazy'></a><a href='play.php-40.html?id=1356'>Zee Tamil HD</a></div><div class='directory-item' data-group='Movies' data-name='Zee Talkies HD'><a href='play.php-41.html?id=1358'><img src='../dare_images/images/Zee_Talkies_HD.png' alt='Zee Talkies HD' loading='lazy'></a><a href='play.php-41.html?id=1358'>Zee Talkies HD</a></div><div class='directory-item' data-group='Entertainment' data-name='Big Magic'><a href='play.php-42.html?id=1359'><img src='../dare_images/images/Big_Magic.png' alt='Big Magic' loading='lazy'></a><a href='play.php-42.html?id=1359'>Big Magic</a></div><div class='directory-item' data-group='Entertainment' data-name='Zee Marathi HD'><a href='play.php-43.html?id=1360'><img src='../dare_images/images/Zee_Marathi_HD.png' alt='Zee Marathi HD' loading='lazy'></a><a href='play.php-43.html?id=1360'>Zee Marathi HD</a></div><div class='directory-item' data-group='Entertainment' data-name='Zee Kannada HD'><a href='play.php-44.html?id=1362'><img src='../dare_images/images/Zee_Kannada_HD.png' alt='Zee Kannada HD' loading='lazy'></a><a href='play.php-44.html?id=1362'>Zee Kannada HD</a></div><div class='directory-item' data-group='Movies' data-name='Zee Cinemalu HD'><a href='play.php-45.html?id=1363'><img src='../dare_images/images/Zee_Cinemalu_HD.png' alt='Zee Cinemalu HD' loading='lazy'></a><a href='play.php-45.html?id=1363'>Zee Cinemalu HD</a></div><div class='directory-item' data-group='Movies' data-name='Zee Classic'><a href='play.php-46.html?id=1691'><img src='../dare_images/images/Zee_Classic_SD.png' alt='Zee Classic' loading='lazy'></a><a href='play.php-46.html?id=1691'>Zee Classic</a></div><div class='directory-item' data-group='Movies' data-name='Zee Picchar HD'><a href='play.php-47.html?id=1746'><img src='../dare_images/images/Zee_Picchar_HD.png' alt='Zee Picchar HD' loading='lazy'></a><a href='play.php-47.html?id=1746'>Zee Picchar HD</a></div><div class='directory-item' data-group='Entertainment' data-name='Zee Punjabi'><a href='play.php-48.html?id=1751'><img src='../dare_images/images/Zee_Punjabi.png' alt='Zee Punjabi' loading='lazy'></a><a href='play.php-48.html?id=1751'>Zee Punjabi</a></div><div class='directory-item' data-group='Movies' data-name='And Pictures'><a href='play.php-49.html?id=1839'><img src='../dare_images/images/And_Pictures.png' alt='And Pictures' loading='lazy'></a><a href='play.php-49.html?id=1839'>And Pictures</a></div><div class='directory-item' data-group='Entertainment' data-name='And TV'><a href='play.php-50.html?id=2024'><img src='../dare_images/images/And_TV.png' alt='And TV' loading='lazy'></a><a href='play.php-50.html?id=2024'>And TV</a></div><div class='directory-item' data-group='News' data-name='Zee Kannada News'><a href='play.php-51.html?id=2742'><img src='../dare_images/images/Zee_Kannada_News.png' alt='Zee Kannada News' loading='lazy'></a><a href='play.php-51.html?id=2742'>Zee Kannada News</a></div><div class='directory-item' data-group='Lifestyle' data-name='Zee Zest HD'><a href='play.php-52.html?id=2757'><img src='../dare_images/images/Zee_Zest_HD.png' alt='Zee Zest HD' loading='lazy'></a><a href='play.php-52.html?id=2757'>Zee Zest HD</a></div><div class='directory-item' data-group='Movies' data-name='Zee Chitramandir'><a href='play.php-53.html?id=2758'><img src='../dare_images/images/Zee_Chitramandir.png' alt='Zee Chitramandir' loading='lazy'></a><a href='play.php-53.html?id=2758'>Zee Chitramandir</a></div><div class='directory-item' data-group='Entertainment' data-name='Zee Ganga'><a href='play.php-54.html?id=2761'><img src='../dare_images/images/Zee_Ganga.png' alt='Zee Ganga' loading='lazy'></a><a href='play.php-54.html?id=2761'>Zee Ganga</a></div><div class='directory-item' data-group='Lifestyle' data-name='Zee Zest SD'><a href='play.php-55.html?id=2948'><img src='../dare_images/images/Zee_Zest_SD.png' alt='Zee Zest SD' loading='lazy'></a><a href='play.php-55.html?id=2948'>Zee Zest SD</a></div>    </div>
+
+    <script type="7913987affcc2954cc89dd17-text/javascript">
+        function filterChannels() {
+            var selectedGroup = document.getElementById('group-select').value;
+            var channels = document.querySelectorAll('.directory-item');
+            
+            channels.forEach(function(channel) {
+                if (selectedGroup === 'all' || channel.getAttribute('data-group') === selectedGroup) {
+                    channel.style.display = 'block';
+                } else {
+                    channel.style.display = 'none';
+                }
+            });
+        }
+
+        function searchChannels() {
+            var input = document.getElementById('search-input').value.toLowerCase();
+            var channels = document.querySelectorAll('.directory-item');
+            
+            channels.forEach(function(channel) {
+                var name = channel.getAttribute('data-name').toLowerCase();
+                if (name.includes(input)) {
+                    channel.style.display = 'block';
+                } else {
+                    channel.style.display = 'none';
+                }
+            });
+        }
+
+        const checkbox = document.getElementById("checkbox");
+        checkbox.addEventListener("change", () => {
+            document.body.classList.toggle("dark-mode");
+        });
+    </script>
+<script src="../cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="7913987affcc2954cc89dd17-|49" defer=""></script></body>
+</html>
