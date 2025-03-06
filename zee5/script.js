@@ -65,5 +65,27 @@ function loadChannel() {
     }
 }
 
+document.addEventListener("DOMContentLoaded", function () {
+    const urlParams = new URLSearchParams(window.location.search);
+    const channelUrl = urlParams.get("channel");
+
+    if (!channelUrl) {
+        alert("No channel URL provided!");
+        return;
+    }
+
+    jwplayer("player").setup({
+        controls: true,
+        displaytitle: true,
+        fullscreen: true,
+        width: "100%",
+        height: "100%",
+        autostart: true,
+        file: channelUrl,
+        type: "hls",
+    });
+});
+
+
 // Load Channels on Page Load
 loadM3UChannels();
