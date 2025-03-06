@@ -1,4 +1,4 @@
-const m3uURL = "https://your-m3u-playlist-url.com/playlist.m3u"; // Change to your M3U URL
+const m3uURL = "https://raw.githubusercontent.com/MohammadKobirShah/KobirIPTV/refs/heads/main/zee5/zee5.m3u"; // Change to your M3U URL
 const channelsContainer = document.getElementById("channelsContainer");
 
 // Fetch and parse M3U Playlist
