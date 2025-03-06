@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live TV Streaming</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Live TV Streaming</h1>
+    
+    <input type="text" id="channelUrl" placeholder="Enter M3U8 URL">
+    <button onclick="loadChannel()">Play Channel</button>
+
+    <div class="channel-list">
+        <h2>Available Channels</h2>
+        <ul>
+            <li><a href="player.html?channel=https://example.com/stream1.m3u8">Channel 1</a></li>
+            <li><a href="player.html?channel=https://example.com/stream2.m3u8">Channel 2</a></li>
+            <li><a href="player.html?channel=https://example.com/stream3.m3u8">Channel 3</a></li>
+        </ul>
+    </div>
+
+    <script>
+        function loadChannel() {
+            let url = document.getElementById('channelUrl').value;
+            if (url) {
+                window.location.href = `player.html?channel=${encodeURIComponent(url)}`;
+            } else {
+                alert("Please enter a valid URL!");
+            }
+        }
+    </script>
+
+</body>
+</html>
