@@ -3,69 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Player</title>
-
-    <!-- JW Player -->
-    <script src="https://ssl.p.jwpcdn.com/player/v/8.32.1/jwplayer.js" async></script>
-
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: black;
-        }
-
-        #player-container {
-            width: 100%;
-            max-width: 800px;
-            aspect-ratio: 16 / 9;
-            margin: 10px 0;
-        }
-    </style>
+    <title>Nick Bangla - Video.js</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/video.js/7.20.3/video-js.min.css" rel="stylesheet">
 </head>
 <body>
 
-    <div id="player-container"></div>
+    <video id="video-player" class="video-js vjs-default-skin" controls autoplay></video>
 
-    <!-- Ads (Lazy Loaded) -->
-    <div class="ad-container" id="ad-slot"></div>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/video.js/7.20.3/video.min.js"></script>
     <script>
-        // Initialize JW Player
-        document.addEventListener("DOMContentLoaded", function () {
-            jwplayer.key = 'XSuP4qMl+9tK17QNb+4+th2Pm9AWgMO/cYH8CI0HGGr7bdjo';
-            jwplayer("player-container").setup({
-                file: "https://fancod.vercel.app/2504/default_ott.mpd",
-                aspectratio: '16:9',
-                width: '100%',
-                autostart: true,
-                image: 'https://mma.prnewswire.com/media/1919551/WillowTV_Logo.jpg?p=facebook',
-                mute: false,
-                preload: 'auto',
-                captions: { color: 'white', fontSize: '16px', backgroundOpacity: 0 },
-                sharing: {
-                    sites: ['facebook', 'twitter']
-                },
-                drm: {
-                    "clearkey": {
-                        "keyId": "03c2e0af2f8159f9f0ce9b5dbc865f10",
-                        "key": "cd84ed136b0cc71f8ab8cd4d4f6a2e4c"
+        var player = videojs('video-player', {
+            controls: true,
+            autoplay: true,
+            preload: 'auto',
+            sources: [{
+                src: "https://mhdtvstream.com/live.php?id=1341",
+                type: "application/x-mpegURL"
+            }],
+            html5: {
+                hls: {
+                    overrideNative: true,
+                    xhr: function (xhr, url) {
+                        xhr.setRequestHeader("Referer", "https://mhdtvstream.com/");
+                        xhr.setRequestHeader("User-Agent", "Mozilla/5.0 (Linux; Android 14; SM-S911B)");
                     }
                 }
-            });
-        });
-
-        // Lazy Load Ads After Page Loads
-        window.addEventListener("load", function () {
-            let adScript = document.createElement("script");
-            adScript.src = "//eltontry.com/701fef7de243c4e8e91e6e6b3a2fea1e/invoke.js";
-            adScript.async = true;
-            document.getElementById("ad-slot").appendChild(adScript);
+            }
         });
     </script>
 
