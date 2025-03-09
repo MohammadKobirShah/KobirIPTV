@@ -3,33 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nick Bangla - Video.js</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/video.js/7.20.3/video-js.min.css" rel="stylesheet">
+    <title>Nick Bangla - Shaka Player</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.3.6/shaka-player.compiled.min.js"></script>
 </head>
 <body>
 
-    <video id="video-player" class="video-js vjs-default-skin" controls autoplay></video>
+    <video id="video" width="800" controls autoplay></video>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/video.js/7.20.3/video.min.js"></script>
     <script>
-        var player = videojs('video-player', {
-            controls: true,
-            autoplay: true,
-            preload: 'auto',
-            sources: [{
-                src: "https://mhdtvstream.com/live.php?id=1341",
-                type: "application/x-mpegURL"
-            }],
-            html5: {
-                hls: {
-                    overrideNative: true,
-                    xhr: function (xhr, url) {
-                        xhr.setRequestHeader("Referer", "https://mhdtvstream.com/");
-                        xhr.setRequestHeader("User-Agent", "Mozilla/5.0 (Linux; Android 14; SM-S911B)");
-                    }
-                }
+        async function initPlayer() {
+            const video = document.getElementById('video');
+            const player = new shaka.Player(video);
+
+            player.getNetworkingEngine().registerRequestFilter((type, request) => {
+                request.headers["Referer"] = "https://mhdtvstream.com/";
+                request.headers["User-Agent"] = "Mozilla/5.0 (Linux; Android 14; SM-S911B)";
+            });
+
+            try {
+                await player.load('https://mhdtvstream.com/live.php?id=1341'); // Your DASH or HLS URL
+                console.log('The video has loaded successfully!');
+            } catch (e) {
+                console.error('Error loading video', e);
             }
-        });
+        }
+
+        document.addEventListener('DOMContentLoaded', initPlayer);
     </script>
 
 </body>
