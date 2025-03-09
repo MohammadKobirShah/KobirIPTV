@@ -4,32 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nick Bangla Live</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/video.js/8.5.0/video-js.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
 </head>
 <body>
     <h2>Nick Bangla Live Stream</h2>
-    <video id="video-player" class="video-js vjs-default-skin" controls autoplay width="640" height="360"></video>
+    <video id="player" controls autoplay width="640" height="360"></video>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/video.js/8.5.0/video.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/videojs-contrib-hls/5.15.0/videojs-contrib-hls.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    <script src="https://cdn.plyr.io/3.7.8/plyr.js"></script>
     <script>
-        var player = videojs('video-player', {
-            autoplay: true,
-            controls: true,
-            fluid: true
-        });
+        document.addEventListener("DOMContentLoaded", function () {
+            const video = document.getElementById("player");
+            if (Hls.isSupported()) {
+                const hls = new Hls();
+                hls.loadSource("https://mhdtvstream.com/live.php?id=1341");
+                hls.config.xhrSetup = function (xhr) {
+                    xhr.setRequestHeader("Referer", "https://mhdtvstream.com/");
+                    xhr.setRequestHeader("User-Agent", "Mozilla/5.0 (Linux; Android 14; SM-S911B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.6668.100 Mobile Safari/537.36");
+                };
+                hls.attachMedia(video);
+                hls.on(Hls.Events.MANIFEST_PARSED, function () {
+                    video.play();
+                });
+            } else if (video.canPlayType("application/vnd.apple.mpegurl")) {
+                video.src = "https://mhdtvstream.com/live.php?id=1341";
+                video.play();
+            }
 
-        player.src({
-            src: "https://mhdtvstream.com/live.php?id=1341",
-            type: "application/x-mpegURL",
-            withCredentials: false
-        });
-
-        player.tech().on('beforeRequest', function(options) {
-            options.headers = {
-                "Referer": "https://mhdtvstream.com/",
-                "User-Agent": "Mozilla/5.0 (Linux; Android 14; SM-S911B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.6668.100 Mobile Safari/537.36"
-            };
+            const player = new Plyr(video);
         });
     </script>
 </body>
