@@ -3,7 +3,12 @@
 
 #EXTINF:-1 tvg-id="Zee.Bangla.HD.in" tvg-name="Zee Bangla HD" tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-11970-j9luk5ag-v1/imageContent-11970-j9luk5ag-m1.png" group-title="Zee5",ZEE Bangla HD
 https://fifabd.site/TOFx25/RANAPK/play.m3u8?id=zee_bangla
- 
+
+#EXTINF:-1 tvg-id="1260000039" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1200/sources/r1/cms/prod/7202/597202-h" group-title="HOTSTAR | Movies",Star Jalsha Movies HD  
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/824 (KHTML, like Gecko) Chrome/128.0.0.1 YGX/537.36  
+#EXTVLCOPT:http-referrer=https://www.hotstar.com/  
+https://m3u.ygxworld.in/p/KzGHhNXUXHSl/hs/1260000039/index.mpd  
+
 #EXTINF:-1 tvg-id="NICK.in" tvg-name="Nick Bangla" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Nick_Bangla.png" tvg-language="Bengali" tvg-type="Kids" group-title="Kids", Nick Bangla  
 #EXTVLCOPT:http-referrer=https://mhdtvstream.com/  
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; SM-S911B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.6668.100 Mobile Safari/537.36  
